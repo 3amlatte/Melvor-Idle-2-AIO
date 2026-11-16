@@ -12,7 +12,7 @@ import numpy as np
 from . import __version__, ui
 from .config import Settings, load_settings
 from .modes import resolve_mode
-from .paths import LOGS_DIR
+from .paths import FROZEN, LOGS_DIR
 from .savefile import (
     SaveFileError,
     discover_saves,
@@ -36,7 +36,7 @@ def _package_version(name: str) -> str:
     try:
         return metadata.version(name)
     except metadata.PackageNotFoundError:
-        return "missing"
+        return "bundled" if FROZEN else "missing"
 
 
 def collect_diagnostics(settings: Settings | None = None) -> dict[str, Any]:
@@ -55,7 +55,6 @@ def collect_diagnostics(settings: Settings | None = None) -> dict[str, Any]:
                 "numpy",
                 "opencv-python",
                 "pyautogui",
-                "mss",
                 "tomlkit",
                 "PySide6",
             )

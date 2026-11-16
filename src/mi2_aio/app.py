@@ -517,6 +517,24 @@ class MainWindow(QMainWindow):
         self._skills_timer.timeout.connect(self._refresh_skills)
         self._skills_timer.start()
         self.logger.info("MI2 AIO desktop app ready.")
+        QTimer.singleShot(700, self._run_startup_check)
+
+    def _run_startup_check(self, force: bool = False) -> None:
+        from .preflight_ui import show_startup_check
+
+        result = show_startup_check(
+            self.service.settings, self, force=force
+        )
+        if result.failed:
+            self.logger.warning(
+                "Startup check: %d requirement(s) missing.", len(result.failed)
+            )
+        elif result.warnings:
+            self.logger.info(
+                "Startup check: %d warning(s).", len(result.warnings)
+            )
+        else:
+            self.logger.info("Startup check passed.")
 
     # -- UI construction -------------------------------------------------
     def _build_ui(self) -> None:
@@ -1278,6 +1296,11 @@ class MainWindow(QMainWindow):
         toolbar = QHBoxLayout()
         refresh = QPushButton("Refresh")
         refresh.clicked.connect(self._refresh_diagnostics)
+        startup = QPushButton("Startup check")
+        startup.setToolTip(
+            "Check Python, packages, the save helper, saves and the game window."
+        )
+        startup.clicked.connect(lambda: self._run_startup_check(force=True))
         screenshot = QPushButton("Capture screenshot")
         screenshot.clicked.connect(self._capture)
         open_logs = QPushButton("Open logs")
@@ -1292,6 +1315,7 @@ class MainWindow(QMainWindow):
         )
         self.logs_button.toggled.connect(self._toggle_logs_view)
         toolbar.addWidget(refresh)
+        toolbar.addWidget(startup)
         toolbar.addWidget(screenshot)
         toolbar.addWidget(open_logs)
         toolbar.addWidget(open_config)

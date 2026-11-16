@@ -151,6 +151,13 @@ edit coordinates by hand.
 table. `Use selected character` writes `[save].character`; `Use newest save`
 clears it. Buttons capture a screenshot, open logs and open the settings file.
 
+**Startup check** opens the prerequisite dialog: Python version, importable
+packages, the .NET SaveTool helper, settings, findable saves and the Melvor
+window. Failures explain how to install or fix each item and offer **Retry**.
+The first launch runs the same check automatically and shows a dialog only for
+missing requirements or first-run warnings; the result is logged. To force it
+again, use **Diagnostics → Startup check**.
+
 The Diagnostics toolbar has a **Logs** button next to **Open settings file**.
 The default view is the report (`doctor` output, run options, settings
 maintenance and the character table). Clicking **Logs** swaps the view to the

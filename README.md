@@ -35,7 +35,8 @@ Copy-Item config\settings.default.toml config\settings.toml
 # Verify the window, save file, header and capture.
 python -m mi2_aio doctor
 
-# Launch the desktop app.
+# Launch the desktop app. The first launch checks Python, packages, the .NET
+# save helper, saves and the game window, and explains anything that is missing.
 python -m mi2_aio gui
 ```
 
@@ -60,9 +61,12 @@ The packaged app keeps writable config/logs in `%APPDATA%\MI2 AIO`.
   via the in-game Products Gained condition.
 - **Queue** — per-character task list with its own duration, fishing location/spot
   and cooking recipe/amount. Stop pauses; Resume continues.
-- **Desktop app** — Dashboard, Features, Queue, Settings, Diagnostics, live logs,
+- **Desktop app** - Dashboard, Features, Queue, Settings, Diagnostics, live logs,
   character bubbles, idle failsafe and pre-run action restore.
-- **Display-independent** — readers/click points use the fixed 2560×1369
+- **Startup check** - the first launch validates Python, packages, the .NET save
+  helper, saves and the game window, with install instructions for missing
+  items. Re-run it from **Diagnostics → Startup check**.
+- **Display-independent** - readers/click points use the fixed 2560×1369
   reference space and scale to the live game window.
 
 Example queue: Dungeons → Fishing Glowfin ×100 → Cooking Glowfin ×100 → Dungeons.
@@ -70,6 +74,7 @@ Example queue: Dungeons → Fishing Glowfin ×100 → Cooking Glowfin ×100 → 
 ## CLI
 
 ```powershell
+python -m mi2_aio preflight
 python -m mi2_aio doctor
 python -m mi2_aio status
 python -m mi2_aio tasks

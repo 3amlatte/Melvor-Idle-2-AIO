@@ -4,11 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mi2-aio"
-version = "0.64"
+version = "0.65"
 description = "Local automation toolkit for Melvor Idle 2 (Steam)"
 requires-python = ">=3.11"
 dependencies = [
-    "mss>=9.0",
     "pillow>=10.0",
     "numpy>=1.26",
     "opencv-python>=4.9",

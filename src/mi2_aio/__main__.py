@@ -54,6 +54,12 @@ def cmd_doctor(args: argparse.Namespace) -> int:
     return 0 if data["ok"] else 1
 
 
+def cmd_preflight(args: argparse.Namespace) -> int:
+    from .preflight import main as preflight_main
+
+    return preflight_main()
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     settings = _load(args)
 
@@ -627,6 +633,13 @@ def cmd_features(args: argparse.Namespace) -> int:
 
 
 def cmd_gui(args: argparse.Namespace) -> int:
+    from .preflight import check_environment, format_report
+
+    environment = check_environment()
+    if not environment.ok:
+        print(format_report(environment))
+        return 3
+
     from .app import main as app_main
 
     config = Path(args.config) if args.config else None
@@ -774,6 +787,11 @@ def build_parser() -> argparse.ArgumentParser:
     doctor = sub.add_parser("doctor", help="Check environment, game, save, capture")
     _add_config(doctor)
     doctor.set_defaults(func=cmd_doctor)
+
+    preflight = sub.add_parser(
+        "preflight", help="Check required Python packages and the save helper"
+    )
+    preflight.set_defaults(func=cmd_preflight)
 
     status = sub.add_parser("status", help="Decode save header(s) and mode")
     _add_config(status)

@@ -33,7 +33,6 @@ The project depends on the following packages; see their own licenses:
 | NumPy | Array processing |
 | OpenCV (`opencv-python`) | Template matching and connected components |
 | pyautogui | Foreground mouse/keyboard fallback |
-| mss | Fast screen capture |
 | tomlkit | Comment-preserving settings writes |
 | pytest | Test suite (development) |
 | PyInstaller | Standalone Windows build (development) |
