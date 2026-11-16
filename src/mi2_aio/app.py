@@ -201,15 +201,13 @@ class NumberInput(QWidget):
         self.edit.setValidator(QIntValidator(0, self._maximum, self))
         self.unit_label = None
         if unit:
-            self.edit.setFixedWidth(45)
             self.edit.setAlignment(
-                Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter
+                Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter
             )
-            layout.addWidget(self.edit, 0)
+            layout.addWidget(self.edit, 1)
             self.unit_label = QLabel(unit)
             self.unit_label.setObjectName("numberInputUnit")
             layout.addWidget(self.unit_label, 0)
-            layout.addStretch(1)
         else:
             layout.addWidget(self.edit, 1)
         self.setFixedHeight(26)
