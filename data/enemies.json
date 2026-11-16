@@ -1,0 +1,6102 @@
+{
+  "game": "Melvor Idle 2",
+  "build": "Demo 0.11.4-alpha",
+  "source": "Melvor2.exe embedded monster data (Sprite under Assets/Monsters)",
+  "generated": "2026-11-14",
+  "enemies": [
+    {
+      "id": "AngryWasp",
+      "name": "Angry Wasp",
+      "levels": {
+        "Hitpoints": 27,
+        "Attack": 44,
+        "Strength": 44,
+        "Defence": 38,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 85
+      },
+      "defence_bonuses": {
+        "stab": 197,
+        "slash": 219,
+        "crush": 116,
+        "block": 89,
+        "accurate": 143,
+        "powerful": 251,
+        "longrange": 224,
+        "offensive": 164,
+        "defensive": 73
+      },
+      "misc_stats": {
+        "AttackInterval": 1800,
+        "MeleeStrengthBonus": 85
+      },
+      "power_ratings": {
+        "normal": 1095
+      },
+      "protection_ratings": {
+        "normal": 104
+      }
+    },
+    {
+      "id": "ArcheryTarget",
+      "name": "Archery Target",
+      "levels": {
+        "Hitpoints": 1,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 2,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 23
+      },
+      "defence_bonuses": {
+        "stab": -8,
+        "slash": -10,
+        "block": -7,
+        "crush": -7,
+        "accurate": 0,
+        "powerful": 8,
+        "longrange": 2,
+        "offensive": 10,
+        "defensive": 8
+      },
+      "misc_stats": {
+        "AttackInterval": 6000,
+        "RangedStrengthBonus": -69
+      },
+      "power_ratings": {
+        "normal": 56
+      },
+      "protection_ratings": {
+        "normal": 1
+      }
+    },
+    {
+      "id": "BabyBlackDragon",
+      "name": "Baby Black Dragon",
+      "levels": {
+        "Hitpoints": 57,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 60,
+        "Ranged": 90,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 170
+      },
+      "defence_bonuses": {
+        "stab": 97,
+        "slash": 109,
+        "crush": 109,
+        "block": 141,
+        "accurate": 205,
+        "powerful": 237,
+        "longrange": 173,
+        "offensive": 524,
+        "defensive": 578
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "RangedStrengthBonus": 100
+      },
+      "power_ratings": {
+        "normal": 1677
+      },
+      "protection_ratings": {
+        "normal": 269
+      }
+    },
+    {
+      "id": "BabyWurm",
+      "name": "Baby Wurm",
+      "levels": {
+        "Hitpoints": 220,
+        "Attack": 92,
+        "Strength": 92,
+        "Defence": 80,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 154
+      },
+      "defence_bonuses": {
+        "stab": 235,
+        "slash": 94,
+        "crush": 207,
+        "block": 292,
+        "accurate": 94,
+        "powerful": 207,
+        "longrange": 151,
+        "offensive": 77,
+        "defensive": 172
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "MeleeStrengthBonus": 235,
+        "Armour": 130
+      },
+      "power_ratings": {
+        "normal": 2263
+      },
+      "protection_ratings": {
+        "normal": 810
+      }
+    },
+    {
+      "id": "Bee",
+      "name": "Bee",
+      "levels": {
+        "Hitpoints": 14,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 23,
+        "Ranged": 36,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 94
+      },
+      "defence_bonuses": {
+        "stab": 71,
+        "slash": 56,
+        "crush": 81,
+        "block": 81,
+        "accurate": 155,
+        "powerful": 230,
+        "longrange": 180,
+        "offensive": 441,
+        "defensive": 399
+      },
+      "misc_stats": {
+        "AttackInterval": 1400,
+        "RangedStrengthBonus": 33
+      },
+      "power_ratings": {
+        "normal": 681
+      },
+      "protection_ratings": {
+        "normal": 54
+      }
+    },
+    {
+      "id": "BlackDragon",
+      "name": "Black Dragon",
+      "levels": {
+        "Hitpoints": 148,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 85,
+        "Ranged": 131,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 283
+      },
+      "defence_bonuses": {
+        "stab": 189,
+        "slash": 212,
+        "crush": 212,
+        "block": 269,
+        "accurate": 384,
+        "powerful": 442,
+        "longrange": 327,
+        "offensive": 972,
+        "defensive": 1071
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "RangedStrengthBonus": 152
+      },
+      "power_ratings": {
+        "normal": 2412
+      },
+      "protection_ratings": {
+        "normal": 712
+      }
+    },
+    {
+      "id": "BlackSlime",
+      "name": "Black Slime",
+      "levels": {
+        "Hitpoints": 10,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 22,
+        "Ranged": 35,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 92
+      },
+      "defence_bonuses": {
+        "stab": 42,
+        "slash": 48,
+        "crush": 48,
+        "block": 65,
+        "accurate": 99,
+        "powerful": 115,
+        "longrange": 82,
+        "offensive": 257,
+        "defensive": 285
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "RangedStrengthBonus": 37
+      },
+      "power_ratings": {
+        "normal": 660
+      },
+      "protection_ratings": {
+        "normal": 51
+      }
+    },
+    {
+      "id": "BlackstoneGolem",
+      "name": "Blackstone Golem",
+      "levels": {
+        "Hitpoints": 78,
+        "Attack": 83,
+        "Strength": 84,
+        "Defence": 70,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 139
+      },
+      "defence_bonuses": {
+        "stab": 209,
+        "slash": 83,
+        "crush": 184,
+        "block": 260,
+        "accurate": 83,
+        "powerful": 184,
+        "longrange": 133,
+        "offensive": 67,
+        "defensive": 152
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "MeleeStrengthBonus": 158,
+        "Armour": 100
+      },
+      "power_ratings": {
+        "normal": 2038
+      },
+      "protection_ratings": {
+        "normal": 374
+      }
+    },
+    {
+      "id": "BlackstoneRoller",
+      "name": "Blackstone Roller",
+      "levels": {
+        "Hitpoints": 52,
+        "Attack": 68,
+        "Strength": 68,
+        "Defence": 57,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 123
+      },
+      "defence_bonuses": {
+        "stab": 192,
+        "slash": 108,
+        "crush": 66,
+        "block": 150,
+        "accurate": 171,
+        "powerful": 87,
+        "longrange": 192,
+        "offensive": 52,
+        "defensive": 122
+      },
+      "misc_stats": {
+        "AttackInterval": 2500,
+        "MeleeStrengthBonus": 142,
+        "Armour": 80
+      },
+      "power_ratings": {
+        "normal": 1665
+      },
+      "protection_ratings": {
+        "normal": 230
+      }
+    },
+    {
+      "id": "BlackstoneShooter",
+      "name": "Blackstone Shooter",
+      "levels": {
+        "Hitpoints": 69,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 65,
+        "Ranged": 103,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 225
+      },
+      "defence_bonuses": {
+        "stab": 67,
+        "slash": 76,
+        "crush": 76,
+        "block": 100,
+        "accurate": 147,
+        "powerful": 170,
+        "longrange": 123,
+        "offensive": 378,
+        "defensive": 417
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 105,
+        "Armour": 90
+      },
+      "power_ratings": {
+        "normal": 1889
+      },
+      "protection_ratings": {
+        "normal": 319
+      }
+    },
+    {
+      "id": "BlightedTorfish",
+      "name": "Blighted Torfish",
+      "levels": {
+        "Hitpoints": 39,
+        "Attack": 67,
+        "Strength": 67,
+        "Defence": 56,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 102
+      },
+      "defence_bonuses": {
+        "stab": 291,
+        "slash": 167,
+        "block": 229,
+        "crush": 105,
+        "accurate": 260,
+        "powerful": 136,
+        "longrange": 291,
+        "offensive": 86,
+        "defensive": 191
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MeleeStrengthBonus": 129,
+        "MaximumWard": 12
+      },
+      "power_ratings": {
+        "normal": 1647
+      },
+      "protection_ratings": {
+        "normal": 205
+      }
+    },
+    {
+      "id": "BloodFiend",
+      "name": "Blood Fiend",
+      "levels": {
+        "Hitpoints": 195,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 89,
+        "Ranged": 139,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 297
+      },
+      "defence_bonuses": {
+        "stab": 284,
+        "slash": 163,
+        "crush": 284,
+        "block": 223,
+        "accurate": 465,
+        "powerful": 344,
+        "longrange": 586,
+        "offensive": 1126,
+        "defensive": 1022
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "RangedStrengthBonus": 145,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 2549
+      },
+      "protection_ratings": {
+        "normal": 900
+      }
+    },
+    {
+      "id": "BloodHound",
+      "name": "Blood Hound",
+      "levels": {
+        "Hitpoints": 170,
+        "Attack": 102,
+        "Strength": 102,
+        "Defence": 88,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 169
+      },
+      "defence_bonuses": {
+        "stab": 220,
+        "slash": 458,
+        "crush": 517,
+        "block": 482,
+        "accurate": 541,
+        "powerful": 339,
+        "longrange": 637,
+        "offensive": 392,
+        "defensive": 187
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 195,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 2501
+      },
+      "protection_ratings": {
+        "normal": 813
+      }
+    },
+    {
+      "id": "BloodImp",
+      "name": "Blood Imp",
+      "levels": {
+        "Hitpoints": 148,
+        "Attack": 100,
+        "Strength": 98,
+        "Defence": 87,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 177
+      },
+      "defence_bonuses": {
+        "stab": 450,
+        "slash": 496,
+        "crush": 274,
+        "block": 216,
+        "accurate": 333,
+        "powerful": 567,
+        "longrange": 508,
+        "offensive": 384,
+        "defensive": 183
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 155,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 2439
+      },
+      "protection_ratings": {
+        "normal": 728
+      }
+    },
+    {
+      "id": "BloodReaper",
+      "name": "Blood Reaper",
+      "levels": {
+        "Hitpoints": 195,
+        "Attack": 104,
+        "Strength": 104,
+        "Defence": 89,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 171
+      },
+      "defence_bonuses": {
+        "stab": 223,
+        "slash": 465,
+        "crush": 525,
+        "block": 489,
+        "accurate": 549,
+        "powerful": 344,
+        "longrange": 646,
+        "offensive": 397,
+        "defensive": 189
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 205,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 2544
+      },
+      "protection_ratings": {
+        "normal": 900
+      }
+    },
+    {
+      "id": "BloodSummoner",
+      "name": "Blood Summoner",
+      "levels": {
+        "Hitpoints": 195,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 89,
+        "Ranged": 1,
+        "Magic": 139
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 247
+      },
+      "defence_bonuses": {
+        "stab": 525,
+        "slash": 586,
+        "crush": 284,
+        "block": 586,
+        "accurate": 163,
+        "powerful": 102,
+        "longrange": 223,
+        "offensive": 506,
+        "defensive": 581
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "Lifesteal": 0.1,
+        "SpellMaxHit": 305
+      },
+      "power_ratings": {
+        "normal": 2549
+      },
+      "protection_ratings": {
+        "normal": 900
+      }
+    },
+    {
+      "id": "BlueDragon",
+      "name": "Blue Dragon",
+      "levels": {
+        "Hitpoints": 85,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 65,
+        "Ranged": 100,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 222
+      },
+      "defence_bonuses": {
+        "stab": 142,
+        "slash": 160,
+        "crush": 160,
+        "block": 204,
+        "accurate": 293,
+        "powerful": 338,
+        "longrange": 249,
+        "offensive": 743,
+        "defensive": 820
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 114
+      },
+      "power_ratings": {
+        "normal": 1848
+      },
+      "protection_ratings": {
+        "normal": 347
+      }
+    },
+    {
+      "id": "BlueSlime",
+      "name": "Blue Slime",
+      "levels": {
+        "Hitpoints": 7,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 16,
+        "Ranged": 1,
+        "Magic": 25
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 54
+      },
+      "defence_bonuses": {
+        "stab": 96,
+        "slash": 109,
+        "crush": 45,
+        "block": 109,
+        "accurate": 20,
+        "powerful": 7,
+        "longrange": 32,
+        "offensive": 89,
+        "defensive": 104
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "SpellMaxHit": 34
+      },
+      "power_ratings": {
+        "normal": 482
+      },
+      "protection_ratings": {
+        "normal": 31
+      }
+    },
+    {
+      "id": "BogBloomer",
+      "name": "Bog Bloomer",
+      "levels": {
+        "Hitpoints": 18,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 28,
+        "Ranged": 1,
+        "Magic": 45
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 86
+      },
+      "defence_bonuses": {
+        "stab": 168,
+        "slash": 189,
+        "crush": 85,
+        "block": 189,
+        "accurate": 44,
+        "powerful": 23,
+        "longrange": 65,
+        "offensive": 159,
+        "defensive": 185
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 87
+      },
+      "power_ratings": {
+        "normal": 839
+      },
+      "protection_ratings": {
+        "normal": 65
+      }
+    },
+    {
+      "id": "BugSwarm",
+      "name": "Bug Swarm",
+      "levels": {
+        "Hitpoints": 12,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 32,
+        "Ranged": 51,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 103
+      },
+      "defence_bonuses": {
+        "stab": 114,
+        "slash": 61,
+        "crush": 114,
+        "block": 88,
+        "accurate": 194,
+        "powerful": 141,
+        "longrange": 247,
+        "offensive": 474,
+        "defensive": 430
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "RangedStrengthBonus": 25
+      },
+      "power_ratings": {
+        "normal": 949
+      },
+      "protection_ratings": {
+        "normal": 74
+      }
+    },
+    {
+      "id": "CarrionCrow",
+      "name": "Carrion Crow",
+      "levels": {
+        "Hitpoints": 24,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 35,
+        "Ranged": 56,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 133
+      },
+      "defence_bonuses": {
+        "stab": 73,
+        "slash": 58,
+        "crush": 83,
+        "block": 83,
+        "accurate": 159,
+        "powerful": 235,
+        "longrange": 184,
+        "offensive": 451,
+        "defensive": 408
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 52
+      },
+      "power_ratings": {
+        "normal": 1038
+      },
+      "protection_ratings": {
+        "normal": 96
+      }
+    },
+    {
+      "id": "CreeperVines",
+      "name": "Creeper Vines",
+      "levels": {
+        "Hitpoints": 14,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 36,
+        "Ranged": 1,
+        "Magic": 57
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 90
+      },
+      "defence_bonuses": {
+        "stab": 166,
+        "slash": 186,
+        "crush": 84,
+        "block": 186,
+        "accurate": 43,
+        "powerful": 22,
+        "longrange": 63,
+        "offensive": 156,
+        "defensive": 181
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "SpellMaxHit": 95
+      },
+      "power_ratings": {
+        "normal": 1059
+      },
+      "protection_ratings": {
+        "normal": 83
+      }
+    },
+    {
+      "id": "Culfish",
+      "name": "Culfish",
+      "levels": {
+        "Hitpoints": 35,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 54,
+        "Ranged": 1,
+        "Magic": 84
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 128
+      },
+      "defence_bonuses": {
+        "stab": 248,
+        "slash": 275,
+        "block": 275,
+        "crush": 128,
+        "accurate": 70,
+        "powerful": 40,
+        "longrange": 99,
+        "offensive": 234,
+        "defensive": 271
+      },
+      "misc_stats": {
+        "AttackInterval": 2500,
+        "SpellMaxHit": 169,
+        "MaximumWard": 10
+      },
+      "power_ratings": {
+        "normal": 1553
+      },
+      "protection_ratings": {
+        "normal": 171
+      }
+    },
+    {
+      "id": "DarkWizard",
+      "name": "Dark Wizard",
+      "levels": {
+        "Hitpoints": 90,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 78,
+        "Ranged": 1,
+        "Magic": 124
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 184
+      },
+      "defence_bonuses": {
+        "stab": 399,
+        "slash": 357,
+        "crush": 399,
+        "block": 441,
+        "accurate": 107,
+        "powerful": 148,
+        "longrange": 115,
+        "offensive": 394,
+        "defensive": 446
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MaximumWard": 15,
+        "SpellMaxHit": 225
+      },
+      "power_ratings": {
+        "normal": 2267
+      },
+      "protection_ratings": {
+        "normal": 450
+      }
+    },
+    {
+      "id": "DireWolf",
+      "name": "Dire Wolf",
+      "levels": {
+        "Hitpoints": 47,
+        "Attack": 65,
+        "Strength": 64,
+        "Defence": 54,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 91
+      },
+      "defence_bonuses": {
+        "stab": 100,
+        "slash": 218,
+        "crush": 248,
+        "block": 230,
+        "accurate": 260,
+        "powerful": 159,
+        "longrange": 307,
+        "offensive": 182,
+        "defensive": 82
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 110,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 1580
+      },
+      "protection_ratings": {
+        "normal": 195
+      }
+    },
+    {
+      "id": "DisorientatingGlowsquid",
+      "name": "Disorientating Glowsquid",
+      "levels": {
+        "Hitpoints": 125,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 74,
+        "Ranged": 1,
+        "Magic": 115
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 172
+      },
+      "defence_bonuses": {
+        "stab": 336,
+        "slash": 375,
+        "crush": 178,
+        "block": 375,
+        "accurate": 100,
+        "powerful": 60,
+        "longrange": 139,
+        "offensive": 322,
+        "defensive": 371
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 197
+      },
+      "power_ratings": {
+        "normal": 2116
+      },
+      "protection_ratings": {
+        "normal": 556
+      }
+    },
+    {
+      "id": "Dracolith",
+      "name": "Dracolith",
+      "levels": {
+        "Hitpoints": 125,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 145,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 259
+      },
+      "defence_bonuses": {
+        "stab": 74,
+        "slash": 85,
+        "crush": 85,
+        "block": 110,
+        "accurate": 162,
+        "powerful": 188,
+        "longrange": 136,
+        "offensive": 416,
+        "defensive": 459
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "RangedStrengthBonus": 146,
+        "Armour": 75
+      },
+      "power_ratings": {
+        "normal": 2666
+      },
+      "protection_ratings": {
+        "normal": 704
+      }
+    },
+    {
+      "id": "DracolithRavager",
+      "name": "Dracolith Ravager",
+      "levels": {
+        "Hitpoints": 133,
+        "Attack": 110,
+        "Strength": 110,
+        "Defence": 95,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 152
+      },
+      "defence_bonuses": {
+        "stab": 216,
+        "slash": 86,
+        "crush": 190,
+        "block": 268,
+        "accurate": 86,
+        "powerful": 190,
+        "longrange": 138,
+        "offensive": 69,
+        "defensive": 157
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "MeleeStrengthBonus": 205,
+        "Armour": 100
+      },
+      "power_ratings": {
+        "normal": 2695
+      },
+      "protection_ratings": {
+        "normal": 753
+      }
+    },
+    {
+      "id": "DracolithSpitfire",
+      "name": "Dracolith Spitfire",
+      "levels": {
+        "Hitpoints": 136,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 95,
+        "Ranged": 147,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 262
+      },
+      "defence_bonuses": {
+        "stab": 112,
+        "slash": 60,
+        "crush": 112,
+        "block": 86,
+        "accurate": 190,
+        "powerful": 138,
+        "longrange": 242,
+        "offensive": 464,
+        "defensive": 421
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "RangedStrengthBonus": 145,
+        "Armour": 100
+      },
+      "power_ratings": {
+        "normal": 2700
+      },
+      "protection_ratings": {
+        "normal": 753
+      }
+    },
+    {
+      "id": "DracolithTyrant",
+      "name": "Dracolith Tyrant",
+      "levels": {
+        "Hitpoints": 148,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 96,
+        "Ranged": 1,
+        "Magic": 147
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 219
+      },
+      "defence_bonuses": {
+        "stab": 244,
+        "slash": 217,
+        "crush": 244,
+        "block": 270,
+        "accurate": 60,
+        "powerful": 86,
+        "longrange": 65,
+        "offensive": 239,
+        "defensive": 271
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "Armour": 100,
+        "SpellMaxHit": 249
+      },
+      "power_ratings": {
+        "normal": 2707
+      },
+      "protection_ratings": {
+        "normal": 803
+      }
+    },
+    {
+      "id": "DracolithWyrm",
+      "name": "Dracolith Wyrm",
+      "levels": {
+        "Hitpoints": 128,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 145
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 215
+      },
+      "defence_bonuses": {
+        "stab": 239,
+        "slash": 213,
+        "crush": 239,
+        "block": 265,
+        "accurate": 59,
+        "powerful": 85,
+        "longrange": 64,
+        "offensive": 235,
+        "defensive": 266
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "Armour": 85,
+        "SpellMaxHit": 310
+      },
+      "power_ratings": {
+        "normal": 2666
+      },
+      "protection_ratings": {
+        "normal": 704
+      }
+    },
+    {
+      "id": "Drake",
+      "name": "Drake",
+      "levels": {
+        "Hitpoints": 53,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 45,
+        "Ranged": 70,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 162
+      },
+      "defence_bonuses": {
+        "stab": 95,
+        "slash": 108,
+        "crush": 108,
+        "block": 140,
+        "accurate": 203,
+        "powerful": 234,
+        "longrange": 171,
+        "offensive": 518,
+        "defensive": 572
+      },
+      "misc_stats": {
+        "AttackInterval": 2500,
+        "RangedStrengthBonus": 73
+      },
+      "power_ratings": {
+        "normal": 1299
+      },
+      "protection_ratings": {
+        "normal": 183
+      }
+    },
+    {
+      "id": "Dreadspine",
+      "name": "Dreadspine",
+      "levels": {
+        "Hitpoints": 92,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 79,
+        "Ranged": 126,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 225
+      },
+      "defence_bonuses": {
+        "stab": 62,
+        "slash": 48,
+        "crush": 71,
+        "block": 71,
+        "accurate": 137,
+        "powerful": 204,
+        "longrange": 160,
+        "offensive": 392,
+        "defensive": 354
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "RangedStrengthBonus": 103,
+        "Armour": 50
+      },
+      "power_ratings": {
+        "normal": 2301
+      },
+      "protection_ratings": {
+        "normal": 456
+      }
+    },
+    {
+      "id": "DrownedCrewman",
+      "name": "Drowned Crewman",
+      "levels": {
+        "Hitpoints": 157,
+        "Attack": 103,
+        "Strength": 102,
+        "Defence": 91,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 144
+      },
+      "defence_bonuses": {
+        "stab": 171,
+        "slash": 360,
+        "crush": 408,
+        "block": 379,
+        "accurate": 427,
+        "powerful": 266,
+        "longrange": 502,
+        "offensive": 306,
+        "defensive": 144
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 215
+      },
+      "power_ratings": {
+        "normal": 2531
+      },
+      "protection_ratings": {
+        "normal": 801
+      }
+    },
+    {
+      "id": "DrownedFlayer",
+      "name": "Drowned Flayer",
+      "levels": {
+        "Hitpoints": 247,
+        "Attack": 110,
+        "Strength": 110,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 181
+      },
+      "defence_bonuses": {
+        "stab": 236,
+        "slash": 491,
+        "crush": 555,
+        "block": 516,
+        "accurate": 580,
+        "powerful": 364,
+        "longrange": 682,
+        "offensive": 420,
+        "defensive": 201
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 208
+      },
+      "power_ratings": {
+        "normal": 2688
+      },
+      "protection_ratings": {
+        "normal": 950
+      }
+    },
+    {
+      "id": "DrownedOne",
+      "name": "Drowned One",
+      "levels": {
+        "Hitpoints": 210,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 147
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 260
+      },
+      "defence_bonuses": {
+        "stab": 555,
+        "slash": 619,
+        "crush": 300,
+        "block": 619,
+        "accurate": 173,
+        "powerful": 109,
+        "longrange": 236,
+        "offensive": 535,
+        "defensive": 614
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "SpellMaxHit": 313
+      },
+      "power_ratings": {
+        "normal": 2693
+      },
+      "protection_ratings": {
+        "normal": 950
+      }
+    },
+    {
+      "id": "DrownedOvermind",
+      "name": "Drowned Overmind",
+      "levels": {
+        "Hitpoints": 260,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 149
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 262
+      },
+      "defence_bonuses": {
+        "stab": 558,
+        "slash": 622,
+        "crush": 302,
+        "block": 622,
+        "accurate": 174,
+        "powerful": 110,
+        "longrange": 238,
+        "offensive": 538,
+        "defensive": 617
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "SpellMaxHit": 312
+      },
+      "power_ratings": {
+        "normal": 2720
+      },
+      "protection_ratings": {
+        "normal": 950
+      }
+    },
+    {
+      "id": "DrownedPirateCaptain",
+      "name": "Drowned Pirate Captain",
+      "levels": {
+        "Hitpoints": 175,
+        "Attack": 106,
+        "Strength": 106,
+        "Defence": 93,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 158
+      },
+      "defence_bonuses": {
+        "stab": 467,
+        "slash": 273,
+        "crush": 176,
+        "block": 370,
+        "accurate": 418,
+        "powerful": 224,
+        "longrange": 467,
+        "offensive": 148,
+        "defensive": 315
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 218
+      },
+      "power_ratings": {
+        "normal": 2609
+      },
+      "protection_ratings": {
+        "normal": 899
+      }
+    },
+    {
+      "id": "DrownedPossessor",
+      "name": "Drowned Possessor",
+      "levels": {
+        "Hitpoints": 168,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 93,
+        "Ranged": 1,
+        "Magic": 140
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 210
+      },
+      "defence_bonuses": {
+        "stab": 465,
+        "slash": 417,
+        "crush": 465,
+        "block": 514,
+        "accurate": 127,
+        "powerful": 175,
+        "longrange": 136,
+        "offensive": 461,
+        "defensive": 521
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 317
+      },
+      "power_ratings": {
+        "normal": 2590
+      },
+      "protection_ratings": {
+        "normal": 859
+      }
+    },
+    {
+      "id": "DrownedQuartermaster",
+      "name": "Drowned Quartermaster",
+      "levels": {
+        "Hitpoints": 168,
+        "Attack": 105,
+        "Strength": 105,
+        "Defence": 93,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 147
+      },
+      "defence_bonuses": {
+        "stab": 175,
+        "slash": 369,
+        "crush": 417,
+        "block": 388,
+        "accurate": 436,
+        "powerful": 272,
+        "longrange": 514,
+        "offensive": 313,
+        "defensive": 147
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 218
+      },
+      "power_ratings": {
+        "normal": 2590
+      },
+      "protection_ratings": {
+        "normal": 859
+      }
+    },
+    {
+      "id": "DrownedRifleman",
+      "name": "Drowned Rifleman",
+      "levels": {
+        "Hitpoints": 162,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 92,
+        "Ranged": 138,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 250
+      },
+      "defence_bonuses": {
+        "stab": 154,
+        "slash": 125,
+        "crush": 173,
+        "block": 173,
+        "accurate": 316,
+        "powerful": 460,
+        "longrange": 364,
+        "offensive": 883,
+        "defensive": 801
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "RangedStrengthBonus": 155
+      },
+      "power_ratings": {
+        "normal": 2556
+      },
+      "protection_ratings": {
+        "normal": 850
+      }
+    },
+    {
+      "id": "DrownedVessel",
+      "name": "Drowned Vessel",
+      "levels": {
+        "Hitpoints": 215,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 147,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 313
+      },
+      "defence_bonuses": {
+        "stab": 211,
+        "slash": 173,
+        "crush": 236,
+        "block": 236,
+        "accurate": 428,
+        "powerful": 619,
+        "longrange": 491,
+        "offensive": 1190,
+        "defensive": 1080
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 104
+      },
+      "power_ratings": {
+        "normal": 2693
+      },
+      "protection_ratings": {
+        "normal": 950
+      }
+    },
+    {
+      "id": "ElderVampire",
+      "name": "Elder Vampire",
+      "levels": {
+        "Hitpoints": 120,
+        "Attack": 97,
+        "Strength": 94,
+        "Defence": 80,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 139
+      },
+      "defence_bonuses": {
+        "stab": 324,
+        "slash": 358,
+        "crush": 195,
+        "block": 153,
+        "accurate": 238,
+        "powerful": 409,
+        "longrange": 366,
+        "offensive": 274,
+        "defensive": 128
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 203,
+        "Lifesteal": 0.12
+      },
+      "power_ratings": {
+        "normal": 2327
+      },
+      "protection_ratings": {
+        "normal": 566
+      }
+    },
+    {
+      "id": "ElderWyvern",
+      "name": "Elder Wyvern",
+      "levels": {
+        "Hitpoints": 140,
+        "Attack": 96,
+        "Strength": 96,
+        "Defence": 83,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 160
+      },
+      "defence_bonuses": {
+        "stab": 488,
+        "slash": 206,
+        "crush": 431,
+        "block": 600,
+        "accurate": 206,
+        "powerful": 431,
+        "longrange": 319,
+        "offensive": 175,
+        "defensive": 368
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "MeleeStrengthBonus": 214
+      },
+      "power_ratings": {
+        "normal": 2357
+      },
+      "protection_ratings": {
+        "normal": 659
+      }
+    },
+    {
+      "id": "EmeraldDragon",
+      "name": "Emerald Dragon",
+      "levels": {
+        "Hitpoints": 175,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 88,
+        "Ranged": 136,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 292
+      },
+      "defence_bonuses": {
+        "stab": 196,
+        "slash": 220,
+        "crush": 220,
+        "block": 279,
+        "accurate": 398,
+        "powerful": 458,
+        "longrange": 339,
+        "offensive": 1007,
+        "defensive": 1109
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "RangedStrengthBonus": 150
+      },
+      "power_ratings": {
+        "normal": 2501
+      },
+      "protection_ratings": {
+        "normal": 851
+      }
+    },
+    {
+      "id": "EnragedBoar",
+      "name": "Enraged Boar",
+      "levels": {
+        "Hitpoints": 12,
+        "Attack": 8,
+        "Strength": 6,
+        "Defence": 15,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 26
+      },
+      "defence_bonuses": {
+        "stab": 46,
+        "slash": 53,
+        "block": 14,
+        "crush": 22,
+        "accurate": 30,
+        "powerful": 62,
+        "longrange": 54,
+        "offensive": -9,
+        "defensive": -1
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "MeleeStrengthBonus": 69
+      },
+      "power_ratings": {
+        "normal": 261
+      },
+      "protection_ratings": {
+        "normal": 8
+      }
+    },
+    {
+      "id": "EraxitheBlightedScar",
+      "name": "Eraxi, the Blighted Scar",
+      "levels": {
+        "Hitpoints": 360,
+        "Attack": 97,
+        "Strength": 97,
+        "Defence": 83,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 201
+      },
+      "defence_bonuses": {
+        "stab": 116,
+        "slash": 250,
+        "block": 263,
+        "crush": 283,
+        "accurate": 297,
+        "powerful": 183,
+        "longrange": 350,
+        "offensive": 209,
+        "defensive": 95
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 195,
+        "Armour": 60,
+        "MaximumWard": 16
+      },
+      "power_ratings": {
+        "normal": 2375
+      },
+      "protection_ratings": {
+        "normal": 1020
+      }
+    },
+    {
+      "id": "EvilPlant",
+      "name": "Evil Plant",
+      "levels": {
+        "Hitpoints": 4,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 5,
+        "Ranged": 8,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 33
+      },
+      "defence_bonuses": {
+        "slash": -3,
+        "crush": 1,
+        "block": 1,
+        "accurate": 15,
+        "powerful": 29,
+        "longrange": 20,
+        "offensive": 55,
+        "defensive": 48
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "RangedStrengthBonus": -45
+      },
+      "power_ratings": {
+        "normal": 173
+      },
+      "protection_ratings": {
+        "normal": 3
+      }
+    },
+    {
+      "id": "GasBall",
+      "name": "Gas Ball",
+      "levels": {
+        "Hitpoints": 20,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 53,
+        "Ranged": 1,
+        "Magic": 84
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 153
+      },
+      "defence_bonuses": {
+        "stab": 352,
+        "slash": 315,
+        "crush": 352,
+        "block": 389,
+        "accurate": 93,
+        "powerful": 130,
+        "longrange": 100,
+        "offensive": 348,
+        "defensive": 394
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "SpellMaxHit": 182
+      },
+      "power_ratings": {
+        "normal": 1546
+      },
+      "protection_ratings": {
+        "normal": 145
+      }
+    },
+    {
+      "id": "GhelbaktheHobChief",
+      "name": "Ghelbak, the Hob Chief",
+      "levels": {
+        "Hitpoints": 16,
+        "Attack": 18,
+        "Strength": 18,
+        "Defence": 15,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 48
+      },
+      "defence_bonuses": {
+        "stab": 105,
+        "slash": 36,
+        "crush": 91,
+        "block": 132,
+        "accurate": 36,
+        "powerful": 91,
+        "longrange": 64,
+        "offensive": 26,
+        "defensive": 70
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "MeleeStrengthBonus": -2
+      },
+      "power_ratings": {
+        "normal": 461
+      },
+      "protection_ratings": {
+        "normal": 194
+      }
+    },
+    {
+      "id": "GiantBee",
+      "name": "Giant Bee",
+      "levels": {
+        "Hitpoints": 19,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 28,
+        "Ranged": 43,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 109
+      },
+      "defence_bonuses": {
+        "stab": 129,
+        "slash": 70,
+        "crush": 129,
+        "block": 100,
+        "accurate": 218,
+        "powerful": 159,
+        "longrange": 277,
+        "offensive": 531,
+        "defensive": 481
+      },
+      "misc_stats": {
+        "AttackInterval": 1600,
+        "RangedStrengthBonus": 45
+      },
+      "power_ratings": {
+        "normal": 811
+      },
+      "protection_ratings": {
+        "normal": 78
+      }
+    },
+    {
+      "id": "GiantChicken",
+      "name": "Giant Chicken",
+      "levels": {
+        "Hitpoints": 5,
+        "Attack": 8,
+        "Strength": 9,
+        "Defence": 7,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 21
+      },
+      "defence_bonuses": {
+        "stab": 34,
+        "slash": 5,
+        "crush": 28,
+        "block": 46,
+        "accurate": 5,
+        "powerful": 28,
+        "longrange": 16,
+        "offensive": -1,
+        "defensive": 15
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "MeleeStrengthBonus": -30
+      },
+      "power_ratings": {
+        "normal": 232
+      },
+      "protection_ratings": {
+        "normal": 4
+      }
+    },
+    {
+      "id": "GiantHornet",
+      "name": "Giant Hornet",
+      "levels": {
+        "Hitpoints": 23,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 33,
+        "Ranged": 51,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 124
+      },
+      "defence_bonuses": {
+        "stab": 67,
+        "slash": 76,
+        "crush": 76,
+        "block": 100,
+        "accurate": 148,
+        "powerful": 171,
+        "longrange": 124,
+        "offensive": 380,
+        "defensive": 420
+      },
+      "misc_stats": {
+        "AttackInterval": 1700,
+        "RangedStrengthBonus": 55
+      },
+      "power_ratings": {
+        "normal": 956
+      },
+      "protection_ratings": {
+        "normal": 91
+      }
+    },
+    {
+      "id": "GlowingEel",
+      "name": "Glowing Eel",
+      "levels": {
+        "Hitpoints": 93,
+        "Attack": 85,
+        "Strength": 84,
+        "Defence": 73,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 118
+      },
+      "defence_bonuses": {
+        "stab": 331,
+        "slash": 137,
+        "crush": 292,
+        "block": 408,
+        "accurate": 137,
+        "powerful": 292,
+        "longrange": 214,
+        "offensive": 114,
+        "defensive": 246
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 145
+      },
+      "power_ratings": {
+        "normal": 2077
+      },
+      "protection_ratings": {
+        "normal": 421
+      }
+    },
+    {
+      "id": "GlowingJellyfish",
+      "name": "Glowing Jellyfish",
+      "levels": {
+        "Hitpoints": 80,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 70,
+        "Ranged": 1,
+        "Magic": 108
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 163
+      },
+      "defence_bonuses": {
+        "stab": 317,
+        "slash": 354,
+        "crush": 168,
+        "block": 354,
+        "accurate": 93,
+        "powerful": 56,
+        "longrange": 131,
+        "offensive": 304,
+        "defensive": 350
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "SpellMaxHit": 195
+      },
+      "power_ratings": {
+        "normal": 1993
+      },
+      "protection_ratings": {
+        "normal": 374
+      }
+    },
+    {
+      "id": "GlowingLurker",
+      "name": "Glowing Lurker",
+      "levels": {
+        "Hitpoints": 83,
+        "Attack": 82,
+        "Strength": 82,
+        "Defence": 71,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 124
+      },
+      "defence_bonuses": {
+        "stab": 359,
+        "slash": 208,
+        "crush": 133,
+        "block": 284,
+        "accurate": 321,
+        "powerful": 170,
+        "longrange": 359,
+        "offensive": 110,
+        "defensive": 239
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 145
+      },
+      "power_ratings": {
+        "normal": 2018
+      },
+      "protection_ratings": {
+        "normal": 379
+      }
+    },
+    {
+      "id": "Glowsquid",
+      "name": "Glowsquid",
+      "levels": {
+        "Hitpoints": 88,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 72,
+        "Ranged": 1,
+        "Magic": 111
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 167
+      },
+      "defence_bonuses": {
+        "stab": 326,
+        "slash": 364,
+        "crush": 173,
+        "block": 364,
+        "accurate": 96,
+        "powerful": 58,
+        "longrange": 135,
+        "offensive": 312,
+        "defensive": 360
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 195
+      },
+      "power_ratings": {
+        "normal": 2048
+      },
+      "protection_ratings": {
+        "normal": 416
+      }
+    },
+    {
+      "id": "Golbin",
+      "name": "Golbin",
+      "levels": {
+        "Hitpoints": 2,
+        "Attack": 2,
+        "Strength": 1,
+        "Defence": 1,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 11
+      },
+      "defence_bonuses": {
+        "stab": 4,
+        "slash": 6,
+        "crush": -3,
+        "block": -6,
+        "accurate": -1,
+        "powerful": 10,
+        "longrange": 7,
+        "offensive": -5,
+        "defensive": -11
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": -50
+      },
+      "power_ratings": {
+        "normal": 63
+      },
+      "protection_ratings": {
+        "normal": 1
+      }
+    },
+    {
+      "id": "GolbinAmbusher",
+      "name": "Golbin Ambusher",
+      "levels": {
+        "Hitpoints": 4,
+        "Attack": 6,
+        "Strength": 5,
+        "Defence": 5,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 17
+      },
+      "defence_bonuses": {
+        "stab": 19,
+        "slash": 23,
+        "crush": 5,
+        "accurate": 10,
+        "powerful": 29,
+        "longrange": 24,
+        "offensive": 8,
+        "defensive": -4
+      },
+      "misc_stats": {
+        "AttackInterval": 2100,
+        "MeleeStrengthBonus": -35
+      },
+      "power_ratings": {
+        "normal": 164
+      },
+      "protection_ratings": {
+        "normal": 3
+      }
+    },
+    {
+      "id": "GolbinScout",
+      "name": "Golbin Scout",
+      "levels": {
+        "Hitpoints": 2,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 2,
+        "Ranged": 3,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 25
+      },
+      "defence_bonuses": {
+        "stab": -1,
+        "slash": -8,
+        "crush": -1,
+        "block": -5,
+        "accurate": 7,
+        "powerful": 1,
+        "longrange": 14,
+        "offensive": 25,
+        "defensive": 21
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": -45
+      },
+      "power_ratings": {
+        "normal": 83
+      },
+      "protection_ratings": {
+        "normal": 1
+      }
+    },
+    {
+      "id": "GreenDragon",
+      "name": "Green Dragon",
+      "levels": {
+        "Hitpoints": 74,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 55,
+        "Ranged": 85,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 192
+      },
+      "defence_bonuses": {
+        "stab": 119,
+        "slash": 134,
+        "crush": 134,
+        "block": 172,
+        "accurate": 248,
+        "powerful": 286,
+        "longrange": 210,
+        "offensive": 631,
+        "defensive": 696
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 106
+      },
+      "power_ratings": {
+        "normal": 1574
+      },
+      "protection_ratings": {
+        "normal": 271
+      }
+    },
+    {
+      "id": "GreenSlime",
+      "name": "Green Slime",
+      "levels": {
+        "Hitpoints": 5,
+        "Attack": 15,
+        "Strength": 14,
+        "Defence": 12,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 34
+      },
+      "defence_bonuses": {
+        "stab": 83,
+        "slash": 43,
+        "crush": 22,
+        "block": 63,
+        "accurate": 73,
+        "powerful": 32,
+        "longrange": 83,
+        "offensive": 14,
+        "defensive": 46
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "MeleeStrengthBonus": -14
+      },
+      "power_ratings": {
+        "normal": 376
+      },
+      "protection_ratings": {
+        "normal": 23
+      }
+    },
+    {
+      "id": "GrumpyGolem",
+      "name": "Grumpy Golem",
+      "levels": {
+        "Hitpoints": 25,
+        "Attack": 26,
+        "Strength": 33,
+        "Defence": 25,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 49
+      },
+      "defence_bonuses": {
+        "stab": 115,
+        "slash": 41,
+        "block": 145,
+        "crush": 8,
+        "accurate": 117,
+        "powerful": 252,
+        "longrange": 184,
+        "offensive": 11,
+        "defensive": 41
+      },
+      "misc_stats": {
+        "AttackInterval": 3300,
+        "MeleeStrengthBonus": 69,
+        "Armour": 30
+      },
+      "power_ratings": {
+        "normal": 740
+      },
+      "protection_ratings": {
+        "normal": 69
+      }
+    },
+    {
+      "id": "Harpy",
+      "name": "Harpy",
+      "levels": {
+        "Hitpoints": 45,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 51,
+        "Ranged": 81,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 152
+      },
+      "defence_bonuses": {
+        "stab": 83,
+        "slash": 66,
+        "crush": 94,
+        "block": 94,
+        "accurate": 178,
+        "powerful": 262,
+        "longrange": 206,
+        "offensive": 503,
+        "defensive": 456
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "RangedStrengthBonus": 60
+      },
+      "power_ratings": {
+        "normal": 1491
+      },
+      "protection_ratings": {
+        "normal": 184
+      }
+    },
+    {
+      "id": "Hobgolbin",
+      "name": "Hobgolbin",
+      "levels": {
+        "Hitpoints": 7,
+        "Attack": 12,
+        "Strength": 16,
+        "Defence": 12,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 29
+      },
+      "defence_bonuses": {
+        "stab": 56,
+        "slash": 15,
+        "crush": 48,
+        "block": 73,
+        "accurate": 15,
+        "powerful": 48,
+        "longrange": 31,
+        "offensive": 7,
+        "defensive": 33
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "MeleeStrengthBonus": -23
+      },
+      "power_ratings": {
+        "normal": 367
+      },
+      "protection_ratings": {
+        "normal": 23
+      }
+    },
+    {
+      "id": "HypnoticGlowsquid",
+      "name": "Hypnotic Glowsquid",
+      "levels": {
+        "Hitpoints": 98,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 73,
+        "Ranged": 1,
+        "Magic": 113
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 170
+      },
+      "defence_bonuses": {
+        "stab": 331,
+        "slash": 370,
+        "crush": 176,
+        "block": 370,
+        "accurate": 98,
+        "powerful": 59,
+        "longrange": 137,
+        "offensive": 317,
+        "defensive": 365
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 195
+      },
+      "power_ratings": {
+        "normal": 2082
+      },
+      "protection_ratings": {
+        "normal": 453
+      }
+    },
+    {
+      "id": "JackOLantern",
+      "name": "Jack O Lantern",
+      "levels": {
+        "Hitpoints": 13,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 21,
+        "Ranged": 1,
+        "Magic": 33
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 56
+      },
+      "defence_bonuses": {
+        "stab": 110,
+        "slash": 97,
+        "crush": 110,
+        "block": 123,
+        "accurate": 20,
+        "powerful": 33,
+        "longrange": 23,
+        "offensive": 105,
+        "defensive": 121
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 60
+      },
+      "power_ratings": {
+        "normal": 626
+      },
+      "protection_ratings": {
+        "normal": 49
+      }
+    },
+    {
+      "id": "KelsarinArcher",
+      "name": "Kelsarin Archer",
+      "levels": {
+        "Hitpoints": 156,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 93,
+        "Ranged": 144,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 308
+      },
+      "defence_bonuses": {
+        "stab": 208,
+        "slash": 170,
+        "crush": 233,
+        "block": 233,
+        "accurate": 421,
+        "powerful": 610,
+        "longrange": 484,
+        "offensive": 1173,
+        "defensive": 1064
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "RangedStrengthBonus": 170
+      },
+      "power_ratings": {
+        "normal": 2645
+      },
+      "protection_ratings": {
+        "normal": 818
+      }
+    },
+    {
+      "id": "KelsarinMauler",
+      "name": "Kelsarin Mauler",
+      "levels": {
+        "Hitpoints": 152,
+        "Attack": 109,
+        "Strength": 108,
+        "Defence": 93,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 178
+      },
+      "defence_bonuses": {
+        "stab": 548,
+        "slash": 233,
+        "crush": 485,
+        "block": 674,
+        "accurate": 233,
+        "powerful": 485,
+        "longrange": 359,
+        "offensive": 198,
+        "defensive": 415
+      },
+      "misc_stats": {
+        "AttackInterval": 3300,
+        "MeleeStrengthBonus": 238
+      },
+      "power_ratings": {
+        "normal": 2654
+      },
+      "protection_ratings": {
+        "normal": 818
+      }
+    },
+    {
+      "id": "KelsarinSkirmisher",
+      "name": "Kelsarin Skirmisher",
+      "levels": {
+        "Hitpoints": 148,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 93,
+        "Ranged": 143,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 307
+      },
+      "defence_bonuses": {
+        "stab": 295,
+        "slash": 170,
+        "crush": 295,
+        "block": 232,
+        "accurate": 483,
+        "powerful": 358,
+        "longrange": 608,
+        "offensive": 1170,
+        "defensive": 1062
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "RangedStrengthBonus": 170
+      },
+      "power_ratings": {
+        "normal": 2631
+      },
+      "protection_ratings": {
+        "normal": 778
+      }
+    },
+    {
+      "id": "KelsarinWarmage",
+      "name": "Kelsarin Warmage",
+      "levels": {
+        "Hitpoints": 159,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 145
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 258
+      },
+      "defence_bonuses": {
+        "stab": 616,
+        "slash": 552,
+        "crush": 616,
+        "block": 679,
+        "accurate": 172,
+        "powerful": 235,
+        "longrange": 184,
+        "offensive": 611,
+        "defensive": 690
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "SpellMaxHit": 343
+      },
+      "power_ratings": {
+        "normal": 2666
+      },
+      "protection_ratings": {
+        "normal": 827
+      }
+    },
+    {
+      "id": "KelsarinWastelander",
+      "name": "Kelsarin Wastelander",
+      "levels": {
+        "Hitpoints": 145,
+        "Attack": 108,
+        "Strength": 107,
+        "Defence": 93,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 177
+      },
+      "defence_bonuses": {
+        "stab": 232,
+        "slash": 483,
+        "crush": 546,
+        "block": 509,
+        "accurate": 571,
+        "powerful": 358,
+        "longrange": 672,
+        "offensive": 414,
+        "defensive": 198
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 177
+      },
+      "power_ratings": {
+        "normal": 2636
+      },
+      "protection_ratings": {
+        "normal": 778
+      }
+    },
+    {
+      "id": "KingBlackDragon",
+      "name": "King Black Dragon",
+      "levels": {
+        "Hitpoints": 660,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 88,
+        "Ranged": 140,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 372
+      },
+      "defence_bonuses": {
+        "stab": 230,
+        "slash": 258,
+        "crush": 258,
+        "block": 327,
+        "accurate": 465,
+        "powerful": 534,
+        "longrange": 396,
+        "offensive": 1174,
+        "defensive": 1293
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "RangedStrengthBonus": 144
+      },
+      "power_ratings": {
+        "normal": 2555
+      },
+      "protection_ratings": {
+        "normal": 1081
+      }
+    },
+    {
+      "id": "Krakeling",
+      "name": "Krakeling",
+      "levels": {
+        "Hitpoints": 255,
+        "Attack": 105,
+        "Strength": 114,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 183
+      },
+      "defence_bonuses": {
+        "stab": 554,
+        "slash": 236,
+        "crush": 490,
+        "block": 681,
+        "accurate": 236,
+        "powerful": 490,
+        "longrange": 363,
+        "offensive": 201,
+        "defensive": 420
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "MeleeStrengthBonus": 173
+      },
+      "power_ratings": {
+        "normal": 2679
+      },
+      "protection_ratings": {
+        "normal": 950
+      }
+    },
+    {
+      "id": "KrakentheDrownedOverlord",
+      "name": "Kraken, the Drowned Overlord",
+      "levels": {
+        "Hitpoints": 1900,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 94,
+        "Ranged": 1,
+        "Magic": 150
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 330
+      },
+      "defence_bonuses": {
+        "stab": 719,
+        "slash": 645,
+        "crush": 719,
+        "block": 793,
+        "accurate": 203,
+        "powerful": 276,
+        "longrange": 217,
+        "offensive": 714,
+        "defensive": 806
+      },
+      "misc_stats": {
+        "AttackInterval": 4200,
+        "SpellMaxHit": 263
+      },
+      "power_ratings": {
+        "normal": 2734
+      },
+      "protection_ratings": {
+        "normal": 1154
+      }
+    },
+    {
+      "id": "KythisstheVenomQueen",
+      "name": "Kythiss, the Venom Queen",
+      "levels": {
+        "Hitpoints": 82,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 45,
+        "Ranged": 69,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 201
+      },
+      "defence_bonuses": {
+        "stab": 161,
+        "slash": 89,
+        "crush": 161,
+        "block": 125,
+        "accurate": 269,
+        "powerful": 197,
+        "longrange": 341,
+        "offensive": 655,
+        "defensive": 594
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "RangedStrengthBonus": 75
+      },
+      "power_ratings": {
+        "normal": 1285
+      },
+      "protection_ratings": {
+        "normal": 558
+      }
+    },
+    {
+      "id": "MagicCow",
+      "name": "Magic Cow",
+      "levels": {
+        "Hitpoints": 6,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 9,
+        "Ranged": 1,
+        "Magic": 14
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 29
+      },
+      "defence_bonuses": {
+        "stab": 42,
+        "slash": 49,
+        "crush": 15,
+        "block": 49,
+        "accurate": 2,
+        "powerful": -4,
+        "longrange": 9,
+        "offensive": 37,
+        "defensive": 45
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "SpellMaxHit": 23
+      },
+      "power_ratings": {
+        "normal": 283
+      },
+      "protection_ratings": {
+        "normal": 5
+      }
+    },
+    {
+      "id": "MagmortheMoltenBehemoth",
+      "name": "Magmor, the Molten Behemoth",
+      "levels": {
+        "Hitpoints": 200,
+        "Attack": 87,
+        "Strength": 86,
+        "Defence": 72,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 178
+      },
+      "defence_bonuses": {
+        "stab": 249,
+        "slash": 100,
+        "crush": 219,
+        "block": 308,
+        "accurate": 100,
+        "powerful": 219,
+        "longrange": 160,
+        "offensive": 82,
+        "defensive": 182
+      },
+      "misc_stats": {
+        "AttackInterval": 3600,
+        "MeleeStrengthBonus": 159,
+        "Armour": 110
+      },
+      "power_ratings": {
+        "normal": 2107
+      },
+      "protection_ratings": {
+        "normal": 886
+      }
+    },
+    {
+      "id": "MangroveCaterpillar",
+      "name": "Mangrove Caterpillar",
+      "levels": {
+        "Hitpoints": 23,
+        "Attack": 49,
+        "Strength": 46,
+        "Defence": 40,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 74
+      },
+      "defence_bonuses": {
+        "stab": 206,
+        "slash": 116,
+        "crush": 71,
+        "block": 161,
+        "accurate": 184,
+        "powerful": 94,
+        "longrange": 206,
+        "offensive": 57,
+        "defensive": 132
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MeleeStrengthBonus": 85
+      },
+      "power_ratings": {
+        "normal": 1173
+      },
+      "protection_ratings": {
+        "normal": 110
+      }
+    },
+    {
+      "id": "MangroveMantis",
+      "name": "Mangrove Mantis",
+      "levels": {
+        "Hitpoints": 28,
+        "Attack": 55,
+        "Strength": 51,
+        "Defence": 44,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 75
+      },
+      "defence_bonuses": {
+        "stab": 80,
+        "slash": 178,
+        "crush": 203,
+        "block": 188,
+        "accurate": 213,
+        "powerful": 129,
+        "longrange": 252,
+        "offensive": 147,
+        "defensive": 64
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 100
+      },
+      "power_ratings": {
+        "normal": 1301
+      },
+      "protection_ratings": {
+        "normal": 121
+      }
+    },
+    {
+      "id": "MangroveStrider",
+      "name": "Mangrove Strider",
+      "levels": {
+        "Hitpoints": 10,
+        "Attack": 33,
+        "Strength": 29,
+        "Defence": 26,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 51
+      },
+      "defence_bonuses": {
+        "stab": 105,
+        "slash": 117,
+        "crush": 59,
+        "block": 43,
+        "accurate": 74,
+        "powerful": 136,
+        "longrange": 120,
+        "offensive": 83,
+        "defensive": 32
+      },
+      "misc_stats": {
+        "AttackInterval": 2000,
+        "MeleeStrengthBonus": 40
+      },
+      "power_ratings": {
+        "normal": 775
+      },
+      "protection_ratings": {
+        "normal": 61
+      }
+    },
+    {
+      "id": "MesmeristheSlumberingPrincess",
+      "name": "Mesmeris, the Slumbering Princess",
+      "levels": {
+        "Hitpoints": 375,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 75,
+        "Ranged": 1,
+        "Magic": 117
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 262
+      },
+      "defence_bonuses": {
+        "stab": 511,
+        "slash": 569,
+        "crush": 275,
+        "block": 569,
+        "accurate": 158,
+        "powerful": 99,
+        "longrange": 217,
+        "offensive": 492,
+        "defensive": 565
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 198
+      },
+      "power_ratings": {
+        "normal": 2151
+      },
+      "protection_ratings": {
+        "normal": 923
+      }
+    },
+    {
+      "id": "MindGolbin",
+      "name": "Mind Golbin",
+      "levels": {
+        "Hitpoints": 2,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 3,
+        "Ranged": 1,
+        "Magic": 4
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 16
+      },
+      "defence_bonuses": {
+        "stab": 18,
+        "slash": 15,
+        "crush": 18,
+        "block": 22,
+        "accurate": -6,
+        "powerful": -3,
+        "longrange": -6,
+        "offensive": 14,
+        "defensive": 18
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 12
+      },
+      "power_ratings": {
+        "normal": 104
+      },
+      "protection_ratings": {
+        "normal": 2
+      }
+    },
+    {
+      "id": "Moongazer",
+      "name": "Moongazer",
+      "levels": {
+        "Hitpoints": 150,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 81,
+        "Ranged": 1,
+        "Magic": 126
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 225
+      },
+      "defence_bonuses": {
+        "stab": 533,
+        "slash": 478,
+        "block": 588,
+        "crush": 533,
+        "accurate": 147,
+        "powerful": 202,
+        "longrange": 158,
+        "offensive": 528,
+        "defensive": 597
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 276,
+        "MaximumWard": 15
+      },
+      "power_ratings": {
+        "normal": 235
+      },
+      "protection_ratings": {
+        "normal": 537
+      }
+    },
+    {
+      "id": "MorgistheGraveCorruptor",
+      "name": "Morgis, the Grave Corruptor",
+      "levels": {
+        "Hitpoints": 30,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 26,
+        "Ranged": 1,
+        "Magic": 40
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 99
+      },
+      "defence_bonuses": {
+        "stab": 199,
+        "slash": 177,
+        "crush": 199,
+        "block": 221,
+        "accurate": 47,
+        "powerful": 69,
+        "longrange": 51,
+        "offensive": 195,
+        "defensive": 221
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 82
+      },
+      "power_ratings": {
+        "normal": 756
+      },
+      "protection_ratings": {
+        "normal": 328
+      }
+    },
+    {
+      "id": "MurkwoodBroodlings",
+      "name": "Murkwood Broodlings",
+      "levels": {
+        "Hitpoints": 46,
+        "Attack": 65,
+        "Strength": 59,
+        "Defence": 52,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 92
+      },
+      "defence_bonuses": {
+        "stab": 210,
+        "slash": 233,
+        "crush": 124,
+        "block": 96,
+        "accurate": 153,
+        "powerful": 267,
+        "longrange": 239,
+        "offensive": 175,
+        "defensive": 78
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 80
+      },
+      "power_ratings": {
+        "normal": 1521
+      },
+      "protection_ratings": {
+        "normal": 188
+      }
+    },
+    {
+      "id": "MurkwoodSpider",
+      "name": "Murkwood Spider",
+      "levels": {
+        "Hitpoints": 25,
+        "Attack": 43,
+        "Strength": 43,
+        "Defence": 36,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 68
+      },
+      "defence_bonuses": {
+        "stab": 145,
+        "slash": 162,
+        "crush": 84,
+        "block": 63,
+        "accurate": 104,
+        "powerful": 186,
+        "longrange": 166,
+        "offensive": 118,
+        "defensive": 50
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 50
+      },
+      "power_ratings": {
+        "normal": 1063
+      },
+      "protection_ratings": {
+        "normal": 99
+      }
+    },
+    {
+      "id": "MurkwoodSpinner",
+      "name": "Murkwood Spinner",
+      "levels": {
+        "Hitpoints": 38,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 47,
+        "Ranged": 74,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 141
+      },
+      "defence_bonuses": {
+        "stab": 75,
+        "slash": 59,
+        "crush": 85,
+        "block": 85,
+        "accurate": 163,
+        "powerful": 241,
+        "longrange": 189,
+        "offensive": 463,
+        "defensive": 419
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 30
+      },
+      "power_ratings": {
+        "normal": 1368
+      },
+      "protection_ratings": {
+        "normal": 170
+      }
+    },
+    {
+      "id": "MurkwoodTrapper",
+      "name": "Murkwood Trapper",
+      "levels": {
+        "Hitpoints": 32,
+        "Attack": 50,
+        "Strength": 50,
+        "Defence": 42,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 78
+      },
+      "defence_bonuses": {
+        "stab": 170,
+        "slash": 188,
+        "crush": 99,
+        "block": 76,
+        "accurate": 123,
+        "powerful": 217,
+        "longrange": 193,
+        "offensive": 139,
+        "defensive": 60
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 53
+      },
+      "power_ratings": {
+        "normal": 1232
+      },
+      "protection_ratings": {
+        "normal": 134
+      }
+    },
+    {
+      "id": "MurkwoodWeaver",
+      "name": "Murkwood Weaver",
+      "levels": {
+        "Hitpoints": 51,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 55,
+        "Ranged": 1,
+        "Magic": 88
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 133
+      },
+      "defence_bonuses": {
+        "stab": 283,
+        "slash": 253,
+        "crush": 283,
+        "block": 313,
+        "accurate": 72,
+        "powerful": 102,
+        "longrange": 78,
+        "offensive": 279,
+        "defensive": 316
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 128
+      },
+      "power_ratings": {
+        "normal": 1615
+      },
+      "protection_ratings": {
+        "normal": 222
+      }
+    },
+    {
+      "id": "NightfangFish",
+      "name": "Nightfang Fish",
+      "levels": {
+        "Hitpoints": 33,
+        "Attack": 61,
+        "Strength": 59,
+        "Defence": 51,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 91
+      },
+      "defence_bonuses": {
+        "stab": 205,
+        "slash": 227,
+        "block": 93,
+        "crush": 121,
+        "accurate": 149,
+        "powerful": 261,
+        "longrange": 233,
+        "offensive": 170,
+        "defensive": 76
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 137,
+        "MaximumWard": 9
+      },
+      "power_ratings": {
+        "normal": 1477
+      },
+      "protection_ratings": {
+        "normal": 162
+      }
+    },
+    {
+      "id": "Nightwing",
+      "name": "Nightwing",
+      "levels": {
+        "Hitpoints": 89,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 78,
+        "Ranged": 124,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 222
+      },
+      "defence_bonuses": {
+        "stab": 91,
+        "slash": 47,
+        "crush": 91,
+        "block": 69,
+        "accurate": 157,
+        "powerful": 113,
+        "longrange": 201,
+        "offensive": 386,
+        "defensive": 350
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "RangedStrengthBonus": 100,
+        "Armour": 40
+      },
+      "power_ratings": {
+        "normal": 2267
+      },
+      "protection_ratings": {
+        "normal": 450
+      }
+    },
+    {
+      "id": "OakTreant",
+      "name": "Oak Treant",
+      "levels": {
+        "Hitpoints": 36,
+        "Attack": 54,
+        "Strength": 55,
+        "Defence": 45,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 84
+      },
+      "defence_bonuses": {
+        "stab": 119,
+        "slash": 64,
+        "crush": 36,
+        "block": 91,
+        "accurate": 105,
+        "powerful": 50,
+        "longrange": 119,
+        "offensive": 26,
+        "defensive": 71
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "MeleeStrengthBonus": 50,
+        "Armour": 65
+      },
+      "power_ratings": {
+        "normal": 1335
+      },
+      "protection_ratings": {
+        "normal": 143
+      }
+    },
+    {
+      "id": "PhantasmGuardian",
+      "name": "Phantasm Guardian",
+      "levels": {
+        "Hitpoints": 64,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 63,
+        "Ranged": 1,
+        "Magic": 100
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 150
+      },
+      "defence_bonuses": {
+        "stab": 289,
+        "slash": 323,
+        "crush": 152,
+        "block": 323,
+        "accurate": 84,
+        "powerful": 50,
+        "longrange": 118,
+        "offensive": 276,
+        "defensive": 318
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MaximumWard": 13,
+        "SpellMaxHit": 210
+      },
+      "power_ratings": {
+        "normal": 1834
+      },
+      "protection_ratings": {
+        "normal": 282
+      }
+    },
+    {
+      "id": "PhantasmKnight",
+      "name": "Phantasm Knight",
+      "levels": {
+        "Hitpoints": 61,
+        "Attack": 76,
+        "Strength": 68,
+        "Defence": 61,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 106
+      },
+      "defence_bonuses": {
+        "stab": 312,
+        "slash": 180,
+        "crush": 114,
+        "block": 246,
+        "accurate": 279,
+        "powerful": 147,
+        "longrange": 312,
+        "offensive": 94,
+        "defensive": 206
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 165,
+        "MaximumWard": 12
+      },
+      "power_ratings": {
+        "normal": 1766
+      },
+      "protection_ratings": {
+        "normal": 273
+      }
+    },
+    {
+      "id": "PhantasmOrb",
+      "name": "Phantasm Orb",
+      "levels": {
+        "Hitpoints": 61,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 61,
+        "Ranged": 1,
+        "Magic": 96
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 145
+      },
+      "defence_bonuses": {
+        "stab": 312,
+        "slash": 279,
+        "crush": 312,
+        "block": 345,
+        "accurate": 81,
+        "powerful": 114,
+        "longrange": 87,
+        "offensive": 307,
+        "defensive": 348
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MaximumWard": 12,
+        "SpellMaxHit": 208
+      },
+      "power_ratings": {
+        "normal": 1766
+      },
+      "protection_ratings": {
+        "normal": 273
+      }
+    },
+    {
+      "id": "PhantasmWraith",
+      "name": "Phantasm Wraith",
+      "levels": {
+        "Hitpoints": 61,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 61,
+        "Ranged": 96,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 177
+      },
+      "defence_bonuses": {
+        "stab": 147,
+        "slash": 81,
+        "crush": 147,
+        "block": 114,
+        "accurate": 246,
+        "powerful": 180,
+        "longrange": 312,
+        "offensive": 598,
+        "defensive": 542
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "RangedStrengthBonus": 108,
+        "MaximumWard": 12
+      },
+      "power_ratings": {
+        "normal": 1766
+      },
+      "protection_ratings": {
+        "normal": 273
+      }
+    },
+    {
+      "id": "Plaguewing",
+      "name": "Plaguewing",
+      "levels": {
+        "Hitpoints": 42,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 49,
+        "Ranged": 78,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 176
+      },
+      "defence_bonuses": {
+        "stab": 154,
+        "slash": 85,
+        "crush": 154,
+        "block": 120,
+        "accurate": 258,
+        "powerful": 189,
+        "longrange": 327,
+        "offensive": 627,
+        "defensive": 569
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "RangedStrengthBonus": 67
+      },
+      "power_ratings": {
+        "normal": 1436
+      },
+      "protection_ratings": {
+        "normal": 177
+      }
+    },
+    {
+      "id": "PoisonousSerpent",
+      "name": "Poisonous Serpent",
+      "levels": {
+        "Hitpoints": 30,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 45,
+        "Ranged": 67,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 132
+      },
+      "defence_bonuses": {
+        "stab": 104,
+        "slash": 55,
+        "crush": 104,
+        "block": 79,
+        "accurate": 177,
+        "powerful": 128,
+        "longrange": 226,
+        "offensive": 434,
+        "defensive": 393
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 47
+      },
+      "power_ratings": {
+        "normal": 1258
+      },
+      "protection_ratings": {
+        "normal": 143
+      }
+    },
+    {
+      "id": "QazaraktheShiftsandGuardian",
+      "name": "Qazarak, the Shiftsand Guardian",
+      "levels": {
+        "Hitpoints": 275,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 82,
+        "Ranged": 1,
+        "Magic": 130
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 288
+      },
+      "defence_bonuses": {
+        "stab": 626,
+        "slash": 562,
+        "crush": 626,
+        "block": 690,
+        "accurate": 175,
+        "powerful": 239,
+        "longrange": 188,
+        "offensive": 622,
+        "defensive": 702
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MaximumWard": 20,
+        "SpellMaxHit": 295
+      },
+      "power_ratings": {
+        "normal": 2377
+      },
+      "protection_ratings": {
+        "normal": 1008
+      }
+    },
+    {
+      "id": "RainbowSlime",
+      "name": "Rainbow Slime",
+      "levels": {
+        "Hitpoints": 14,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 28,
+        "Ranged": 1,
+        "Magic": 45
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 86
+      },
+      "defence_bonuses": {
+        "stab": 168,
+        "slash": 189,
+        "crush": 85,
+        "block": 189,
+        "accurate": 44,
+        "powerful": 23,
+        "longrange": 65,
+        "offensive": 159,
+        "defensive": 185
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "SpellMaxHit": 85
+      },
+      "power_ratings": {
+        "normal": 839
+      },
+      "protection_ratings": {
+        "normal": 65
+      }
+    },
+    {
+      "id": "RedDragon",
+      "name": "Red Dragon",
+      "levels": {
+        "Hitpoints": 130,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 75,
+        "Ranged": 116,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 253
+      },
+      "defence_bonuses": {
+        "stab": 165,
+        "slash": 186,
+        "crush": 186,
+        "block": 237,
+        "accurate": 339,
+        "powerful": 390,
+        "longrange": 288,
+        "offensive": 859,
+        "defensive": 947
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 116
+      },
+      "power_ratings": {
+        "normal": 2137
+      },
+      "protection_ratings": {
+        "normal": 563
+      }
+    },
+    {
+      "id": "RedSlime",
+      "name": "Red Slime",
+      "levels": {
+        "Hitpoints": 6,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 14,
+        "Ranged": 22,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 67
+      },
+      "defence_bonuses": {
+        "stab": 23,
+        "slash": 16,
+        "crush": 27,
+        "block": 27,
+        "accurate": 61,
+        "powerful": 96,
+        "longrange": 73,
+        "offensive": 183,
+        "defensive": 165
+      },
+      "misc_stats": {
+        "AttackInterval": 2200,
+        "RangedStrengthBonus": -15
+      },
+      "power_ratings": {
+        "normal": 427
+      },
+      "protection_ratings": {
+        "normal": 27
+      }
+    },
+    {
+      "id": "Ringleader",
+      "name": "Ringleader",
+      "levels": {
+        "Hitpoints": 236,
+        "Attack": 46,
+        "Strength": 46,
+        "Defence": 39,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 168
+      },
+      "defence_bonuses": {
+        "stab": 194,
+        "slash": 151,
+        "block": 211,
+        "crush": 185,
+        "accurate": 151,
+        "powerful": 185,
+        "longrange": 168,
+        "offensive": 111,
+        "defensive": 175
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "MeleeStrengthBonus": 126
+      },
+      "power_ratings": {
+        "normal": 1139
+      },
+      "protection_ratings": {
+        "normal": 486
+      }
+    },
+    {
+      "id": "RoyalBee",
+      "name": "Royal Bee",
+      "levels": {
+        "Hitpoints": 33,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 43,
+        "Ranged": 1,
+        "Magic": 68
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 126
+      },
+      "defence_bonuses": {
+        "stab": 286,
+        "slash": 256,
+        "crush": 286,
+        "block": 317,
+        "accurate": 73,
+        "powerful": 103,
+        "longrange": 79,
+        "offensive": 282,
+        "defensive": 319
+      },
+      "misc_stats": {
+        "AttackInterval": 1900,
+        "SpellMaxHit": 135
+      },
+      "power_ratings": {
+        "normal": 1258
+      },
+      "protection_ratings": {
+        "normal": 137
+      }
+    },
+    {
+      "id": "RubyDragon",
+      "name": "Ruby Dragon",
+      "levels": {
+        "Hitpoints": 165,
+        "Attack": 101,
+        "Strength": 100,
+        "Defence": 87,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 166
+      },
+      "defence_bonuses": {
+        "stab": 511,
+        "slash": 217,
+        "crush": 452,
+        "block": 629,
+        "accurate": 217,
+        "powerful": 452,
+        "longrange": 334,
+        "offensive": 184,
+        "defensive": 387
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "MeleeStrengthBonus": 212
+      },
+      "power_ratings": {
+        "normal": 2467
+      },
+      "protection_ratings": {
+        "normal": 804
+      }
+    },
+    {
+      "id": "Sailfish",
+      "name": "Sailfish",
+      "levels": {
+        "Hitpoints": 28,
+        "Attack": 57,
+        "Strength": 56,
+        "Defence": 48,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 82
+      },
+      "defence_bonuses": {
+        "stab": 87,
+        "slash": 193,
+        "block": 204,
+        "crush": 219,
+        "accurate": 230,
+        "powerful": 140,
+        "longrange": 272,
+        "offensive": 160,
+        "defensive": 71
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "MeleeStrengthBonus": 113,
+        "MaximumWard": 8
+      },
+      "power_ratings": {
+        "normal": 1393
+      },
+      "protection_ratings": {
+        "normal": 131
+      }
+    },
+    {
+      "id": "SandDrake",
+      "name": "Sand Drake",
+      "levels": {
+        "Hitpoints": 91,
+        "Attack": 85,
+        "Strength": 84,
+        "Defence": 73,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 152
+      },
+      "defence_bonuses": {
+        "stab": 479,
+        "slash": 280,
+        "crush": 181,
+        "block": 380,
+        "accurate": 429,
+        "powerful": 230,
+        "longrange": 479,
+        "offensive": 152,
+        "defensive": 323
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 180
+      },
+      "power_ratings": {
+        "normal": 2077
+      },
+      "protection_ratings": {
+        "normal": 421
+      }
+    },
+    {
+      "id": "SandMummy",
+      "name": "Sand Mummy",
+      "levels": {
+        "Hitpoints": 79,
+        "Attack": 79,
+        "Strength": 78,
+        "Defence": 69,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 134
+      },
+      "defence_bonuses": {
+        "stab": 169,
+        "slash": 356,
+        "crush": 403,
+        "block": 375,
+        "accurate": 422,
+        "powerful": 263,
+        "longrange": 497,
+        "offensive": 303,
+        "defensive": 142
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "MeleeStrengthBonus": 173
+      },
+      "power_ratings": {
+        "normal": 1940
+      },
+      "protection_ratings": {
+        "normal": 368
+      }
+    },
+    {
+      "id": "SandNomad",
+      "name": "Sand Nomad",
+      "levels": {
+        "Hitpoints": 68,
+        "Attack": 77,
+        "Strength": 71,
+        "Defence": 62,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 130
+      },
+      "defence_bonuses": {
+        "stab": 326,
+        "slash": 361,
+        "crush": 197,
+        "block": 154,
+        "accurate": 240,
+        "powerful": 412,
+        "longrange": 369,
+        "offensive": 276,
+        "defensive": 129
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 160
+      },
+      "power_ratings": {
+        "normal": 1809
+      },
+      "protection_ratings": {
+        "normal": 304
+      }
+    },
+    {
+      "id": "SandNomadMage",
+      "name": "Sand Nomad Mage",
+      "levels": {
+        "Hitpoints": 99,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 73,
+        "Ranged": 1,
+        "Magic": 116
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 206
+      },
+      "defence_bonuses": {
+        "stab": 484,
+        "slash": 434,
+        "crush": 484,
+        "block": 535,
+        "accurate": 132,
+        "powerful": 183,
+        "longrange": 142,
+        "offensive": 480,
+        "defensive": 542
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 232
+      },
+      "power_ratings": {
+        "normal": 2123
+      },
+      "protection_ratings": {
+        "normal": 453
+      }
+    },
+    {
+      "id": "SandNomadTrapper",
+      "name": "Sand Nomad Trapper",
+      "levels": {
+        "Hitpoints": 74,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 65,
+        "Ranged": 103,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 225
+      },
+      "defence_bonuses": {
+        "stab": 206,
+        "slash": 116,
+        "crush": 206,
+        "block": 161,
+        "accurate": 341,
+        "powerful": 251,
+        "longrange": 431,
+        "offensive": 829,
+        "defensive": 752
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 105
+      },
+      "power_ratings": {
+        "normal": 1889
+      },
+      "protection_ratings": {
+        "normal": 319
+      }
+    },
+    {
+      "id": "SandNomadWarrior",
+      "name": "Sand Nomad Warrior",
+      "levels": {
+        "Hitpoints": 86,
+        "Attack": 82,
+        "Strength": 82,
+        "Defence": 69,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 136
+      },
+      "defence_bonuses": {
+        "stab": 172,
+        "slash": 362,
+        "crush": 410,
+        "block": 381,
+        "accurate": 429,
+        "powerful": 267,
+        "longrange": 505,
+        "offensive": 308,
+        "defensive": 145
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 155
+      },
+      "power_ratings": {
+        "normal": 2004
+      },
+      "protection_ratings": {
+        "normal": 399
+      }
+    },
+    {
+      "id": "SandScorpion",
+      "name": "Sand Scorpion",
+      "levels": {
+        "Hitpoints": 61,
+        "Attack": 70,
+        "Strength": 70,
+        "Defence": 59,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 118
+      },
+      "defence_bonuses": {
+        "stab": 351,
+        "slash": 146,
+        "crush": 310,
+        "block": 433,
+        "accurate": 146,
+        "powerful": 310,
+        "longrange": 228,
+        "offensive": 122,
+        "defensive": 262
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "MeleeStrengthBonus": 95
+      },
+      "power_ratings": {
+        "normal": 1715
+      },
+      "protection_ratings": {
+        "normal": 264
+      }
+    },
+    {
+      "id": "SandSentinel",
+      "name": "Sand Sentinel",
+      "levels": {
+        "Hitpoints": 93,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 77,
+        "Ranged": 1,
+        "Magic": 119
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 213
+      },
+      "defence_bonuses": {
+        "stab": 505,
+        "slash": 453,
+        "crush": 505,
+        "block": 558,
+        "accurate": 139,
+        "powerful": 191,
+        "longrange": 149,
+        "offensive": 501,
+        "defensive": 566
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MaximumWard": 15,
+        "SpellMaxHit": 252
+      },
+      "power_ratings": {
+        "normal": 2192
+      },
+      "protection_ratings": {
+        "normal": 444
+      }
+    },
+    {
+      "id": "SandSpitter",
+      "name": "Sand Spitter",
+      "levels": {
+        "Hitpoints": 70,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 65,
+        "Ranged": 100,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 222
+      },
+      "defence_bonuses": {
+        "stab": 204,
+        "slash": 115,
+        "crush": 204,
+        "block": 160,
+        "accurate": 338,
+        "powerful": 249,
+        "longrange": 427,
+        "offensive": 820,
+        "defensive": 743
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 120
+      },
+      "power_ratings": {
+        "normal": 1848
+      },
+      "protection_ratings": {
+        "normal": 319
+      }
+    },
+    {
+      "id": "SandWurm",
+      "name": "Sand Wurm",
+      "levels": {
+        "Hitpoints": 1200,
+        "Attack": 107,
+        "Strength": 106,
+        "Defence": 92,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 220
+      },
+      "defence_bonuses": {
+        "stab": 313,
+        "slash": 129,
+        "crush": 276,
+        "block": 386,
+        "accurate": 129,
+        "powerful": 276,
+        "longrange": 202,
+        "offensive": 107,
+        "defensive": 232
+      },
+      "misc_stats": {
+        "AttackInterval": 3400,
+        "MeleeStrengthBonus": 215,
+        "Armour": 180
+      },
+      "power_ratings": {
+        "normal": 2611
+      },
+      "protection_ratings": {
+        "normal": 1129
+      }
+    },
+    {
+      "id": "SanguistheCrimsonArcanist",
+      "name": "Sanguis, the Crimson Arcanist",
+      "levels": {
+        "Hitpoints": 370,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 90,
+        "Ranged": 1,
+        "Magic": 141
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 312
+      },
+      "defence_bonuses": {
+        "stab": 246,
+        "slash": 276,
+        "crush": 129,
+        "block": 276,
+        "accurate": 192,
+        "powerful": 122,
+        "longrange": 262,
+        "offensive": 592,
+        "defensive": 679
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "Lifesteal": 0.12,
+        "SpellMaxHit": 275
+      },
+      "power_ratings": {
+        "normal": 2583
+      },
+      "protection_ratings": {
+        "normal": 1105
+      }
+    },
+    {
+      "id": "SapphireDragon",
+      "name": "Sapphire Dragon",
+      "levels": {
+        "Hitpoints": 155,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 86,
+        "Ranged": 1,
+        "Magic": 133
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 237
+      },
+      "defence_bonuses": {
+        "stab": 506,
+        "slash": 564,
+        "crush": 273,
+        "block": 564,
+        "accurate": 156,
+        "powerful": 98,
+        "longrange": 215,
+        "offensive": 487,
+        "defensive": 560
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "SpellMaxHit": 305
+      },
+      "power_ratings": {
+        "normal": 2446
+      },
+      "protection_ratings": {
+        "normal": 757
+      }
+    },
+    {
+      "id": "SavageDireWolf",
+      "name": "Savage Dire Wolf",
+      "levels": {
+        "Hitpoints": 60,
+        "Attack": 75,
+        "Strength": 75,
+        "Defence": 63,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 105
+      },
+      "defence_bonuses": {
+        "stab": 118,
+        "slash": 255,
+        "crush": 289,
+        "block": 268,
+        "accurate": 302,
+        "powerful": 186,
+        "longrange": 357,
+        "offensive": 214,
+        "defensive": 98
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 130,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 1834
+      },
+      "protection_ratings": {
+        "normal": 282
+      }
+    },
+    {
+      "id": "ScarGolem",
+      "name": "Scar Golem",
+      "levels": {
+        "Hitpoints": 125,
+        "Attack": 95,
+        "Strength": 97,
+        "Defence": 82,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 159
+      },
+      "defence_bonuses": {
+        "stab": 243,
+        "slash": 98,
+        "block": 301,
+        "crush": 214,
+        "accurate": 98,
+        "powerful": 214,
+        "longrange": 156,
+        "offensive": 80,
+        "defensive": 178
+      },
+      "misc_stats": {
+        "AttackInterval": 3200,
+        "MeleeStrengthBonus": 190,
+        "Armour": 110
+      },
+      "power_ratings": {
+        "normal": 2350
+      },
+      "protection_ratings": {
+        "normal": 615
+      }
+    },
+    {
+      "id": "Scarecrow",
+      "name": "Scarecrow",
+      "levels": {
+        "Hitpoints": 8,
+        "Attack": 18,
+        "Strength": 17,
+        "Defence": 15,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 32
+      },
+      "defence_bonuses": {
+        "stab": 21,
+        "slash": 60,
+        "crush": 70,
+        "block": 64,
+        "accurate": 73,
+        "powerful": 40,
+        "longrange": 89,
+        "offensive": 43,
+        "defensive": 12
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": -5
+      },
+      "power_ratings": {
+        "normal": 452
+      },
+      "protection_ratings": {
+        "normal": 29
+      }
+    },
+    {
+      "id": "ShiftsandGuardianSentinel",
+      "name": "Shiftsand Guardian Sentinel",
+      "levels": {
+        "Hitpoints": 96,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 82,
+        "Ranged": 1,
+        "Magic": 130
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 192
+      },
+      "defence_bonuses": {
+        "stab": 375,
+        "slash": 419,
+        "crush": 200,
+        "block": 419,
+        "accurate": 113,
+        "powerful": 69,
+        "longrange": 156,
+        "offensive": 360,
+        "defensive": 414
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MaximumWard": 15,
+        "SpellMaxHit": 275
+      },
+      "power_ratings": {
+        "normal": 2377
+      },
+      "protection_ratings": {
+        "normal": 508
+      }
+    },
+    {
+      "id": "SpikySlug",
+      "name": "Spiky Slug",
+      "levels": {
+        "Hitpoints": 63,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 60,
+        "Ranged": 1,
+        "Magic": 96
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 172
+      },
+      "defence_bonuses": {
+        "stab": 180,
+        "slash": 202,
+        "crush": 92,
+        "block": 202,
+        "accurate": 48,
+        "powerful": 26,
+        "longrange": 70,
+        "offensive": 170,
+        "defensive": 197
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "Armour": 50,
+        "SpellMaxHit": 203
+      },
+      "power_ratings": {
+        "normal": 1759
+      },
+      "protection_ratings": {
+        "normal": 269
+      }
+    },
+    {
+      "id": "SpiritStag",
+      "name": "Spirit Stag",
+      "levels": {
+        "Hitpoints": 37,
+        "Attack": 59,
+        "Strength": 58,
+        "Defence": 49,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 89
+      },
+      "defence_bonuses": {
+        "stab": 198,
+        "slash": 220,
+        "crush": 117,
+        "block": 90,
+        "accurate": 144,
+        "powerful": 252,
+        "longrange": 225,
+        "offensive": 164,
+        "defensive": 73
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 79,
+        "MaximumWard": 10
+      },
+      "power_ratings": {
+        "normal": 1436
+      },
+      "protection_ratings": {
+        "normal": 156
+      }
+    },
+    {
+      "id": "Spitterfish",
+      "name": "Spitterfish",
+      "levels": {
+        "Hitpoints": 25,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 45,
+        "Ranged": 70,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 135
+      },
+      "defence_bonuses": {
+        "stab": 106,
+        "slash": 56,
+        "block": 81,
+        "crush": 106,
+        "accurate": 180,
+        "powerful": 131,
+        "longrange": 230,
+        "offensive": 441,
+        "defensive": 399
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "RangedStrengthBonus": 83,
+        "MaximumWard": 7
+      },
+      "power_ratings": {
+        "normal": 1299
+      },
+      "protection_ratings": {
+        "normal": 123
+      }
+    },
+    {
+      "id": "StarblightedMage",
+      "name": "Starblighted Mage",
+      "levels": {
+        "Hitpoints": 150,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 80,
+        "Ranged": 1,
+        "Magic": 124
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 222
+      },
+      "defence_bonuses": {
+        "stab": 525,
+        "slash": 471,
+        "block": 580,
+        "crush": 525,
+        "accurate": 145,
+        "powerful": 199,
+        "longrange": 156,
+        "offensive": 521,
+        "defensive": 588
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "SpellMaxHit": 274
+      },
+      "power_ratings": {
+        "normal": 2281
+      },
+      "protection_ratings": {
+        "normal": 670
+      }
+    },
+    {
+      "id": "StarblightMarksman",
+      "name": "Starblighted Marksman",
+      "levels": {
+        "Hitpoints": 150,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 80,
+        "Ranged": 124,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 268
+      },
+      "defence_bonuses": {
+        "stab": 253,
+        "slash": 145,
+        "block": 199,
+        "crush": 253,
+        "accurate": 417,
+        "powerful": 308,
+        "longrange": 525,
+        "offensive": 1010,
+        "defensive": 917
+      },
+      "misc_stats": {
+        "AttackInterval": 2900,
+        "RangedStrengthBonus": 136
+      },
+      "power_ratings": {
+        "normal": 2281
+      },
+      "protection_ratings": {
+        "normal": 670
+      }
+    },
+    {
+      "id": "StarblightedWarrior",
+      "name": "Starblighted Warrior",
+      "levels": {
+        "Hitpoints": 150,
+        "Attack": 93,
+        "Strength": 93,
+        "Defence": 80,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Block"
+      ],
+      "attack_bonuses": {
+        "block": 417
+      },
+      "defence_bonuses": {
+        "stab": 525,
+        "slash": 308,
+        "crush": 199,
+        "accurate": 471,
+        "powerful": 253,
+        "longrange": 525,
+        "offensive": 169,
+        "defensive": 356
+      },
+      "misc_stats": {
+        "AttackInterval": 2500,
+        "MeleeStrengthBonus": 193
+      },
+      "power_ratings": {
+        "normal": 2281
+      },
+      "protection_ratings": {
+        "normal": 670
+      }
+    },
+    {
+      "id": "StoneElemental",
+      "name": "Stone Elemental",
+      "levels": {
+        "Hitpoints": 55,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 59,
+        "Ranged": 94,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 173
+      },
+      "defence_bonuses": {
+        "stab": 43,
+        "slash": 50,
+        "crush": 50,
+        "block": 67,
+        "accurate": 102,
+        "powerful": 119,
+        "longrange": 85,
+        "offensive": 266,
+        "defensive": 294
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "RangedStrengthBonus": 63,
+        "Armour": 70
+      },
+      "power_ratings": {
+        "normal": 1725
+      },
+      "protection_ratings": {
+        "normal": 238
+      }
+    },
+    {
+      "id": "StoneGargoyle",
+      "name": "Stone Gargoyle",
+      "levels": {
+        "Hitpoints": 50,
+        "Attack": 72,
+        "Strength": 68,
+        "Defence": 60,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 98
+      },
+      "defence_bonuses": {
+        "stab": 51,
+        "slash": 120,
+        "crush": 137,
+        "block": 127,
+        "accurate": 144,
+        "powerful": 85,
+        "longrange": 172,
+        "offensive": 96,
+        "defensive": 39
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 121,
+        "Armour": 60
+      },
+      "power_ratings": {
+        "normal": 1722
+      },
+      "protection_ratings": {
+        "normal": 242
+      }
+    },
+    {
+      "id": "StormBeast",
+      "name": "Storm Beast",
+      "levels": {
+        "Hitpoints": 165,
+        "Attack": 107,
+        "Strength": 107,
+        "Defence": 92,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 176
+      },
+      "defence_bonuses": {
+        "stab": 542,
+        "slash": 230,
+        "crush": 479,
+        "block": 666,
+        "accurate": 230,
+        "powerful": 479,
+        "longrange": 355,
+        "offensive": 196,
+        "defensive": 410
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MeleeStrengthBonus": 187,
+        "Armour": 90
+      },
+      "power_ratings": {
+        "normal": 2620
+      },
+      "protection_ratings": {
+        "normal": 850
+      }
+    },
+    {
+      "id": "StormDragon",
+      "name": "Storm Dragon",
+      "levels": {
+        "Hitpoints": 420,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 93,
+        "Ranged": 143,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 307
+      },
+      "defence_bonuses": {
+        "stab": 207,
+        "slash": 232,
+        "crush": 232,
+        "block": 295,
+        "accurate": 420,
+        "powerful": 483,
+        "longrange": 358,
+        "offensive": 1062,
+        "defensive": 1170
+      },
+      "misc_stats": {
+        "AttackInterval": 3000,
+        "RangedStrengthBonus": 132
+      },
+      "power_ratings": {
+        "normal": 2631
+      },
+      "protection_ratings": {
+        "normal": 940
+      }
+    },
+    {
+      "id": "StormElemental",
+      "name": "Storm Elemental",
+      "levels": {
+        "Hitpoints": 156,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 92,
+        "Ranged": 1,
+        "Magic": 142
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 253
+      },
+      "defence_bonuses": {
+        "stab": 603,
+        "slash": 541,
+        "crush": 603,
+        "block": 665,
+        "accurate": 168,
+        "powerful": 230,
+        "longrange": 180,
+        "offensive": 598,
+        "defensive": 675
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 237
+      },
+      "power_ratings": {
+        "normal": 2611
+      },
+      "protection_ratings": {
+        "normal": 810
+      }
+    },
+    {
+      "id": "StormFang",
+      "name": "Storm Fang",
+      "levels": {
+        "Hitpoints": 148,
+        "Attack": 107,
+        "Strength": 106,
+        "Defence": 92,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 188
+      },
+      "defence_bonuses": {
+        "stab": 478,
+        "slash": 528,
+        "crush": 292,
+        "block": 230,
+        "accurate": 354,
+        "powerful": 603,
+        "longrange": 541,
+        "offensive": 410,
+        "defensive": 196
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 187
+      },
+      "power_ratings": {
+        "normal": 2611
+      },
+      "protection_ratings": {
+        "normal": 770
+      }
+    },
+    {
+      "id": "StormLynx",
+      "name": "Storm Lynx",
+      "levels": {
+        "Hitpoints": 140,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 92,
+        "Ranged": 142,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 304
+      },
+      "defence_bonuses": {
+        "stab": 205,
+        "slash": 230,
+        "crush": 230,
+        "block": 292,
+        "accurate": 416,
+        "powerful": 478,
+        "longrange": 354,
+        "offensive": 1052,
+        "defensive": 1159
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 130
+      },
+      "power_ratings": {
+        "normal": 2611
+      },
+      "protection_ratings": {
+        "normal": 730
+      }
+    },
+    {
+      "id": "TaintedTreant",
+      "name": "Tainted Treant",
+      "levels": {
+        "Hitpoints": 82,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 35,
+        "Ranged": 1,
+        "Magic": 55
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 143
+      },
+      "defence_bonuses": {
+        "stab": 92,
+        "slash": 54,
+        "block": 97,
+        "crush": 75,
+        "accurate": 66,
+        "powerful": 61,
+        "longrange": 70,
+        "offensive": 86,
+        "defensive": 108
+      },
+      "misc_stats": {
+        "AttackInterval": 3300,
+        "Armour": 60,
+        "SpellMaxHit": 140
+      },
+      "power_ratings": {
+        "normal": 1024
+      },
+      "protection_ratings": {
+        "normal": 437
+      }
+    },
+    {
+      "id": "TornadicElemental",
+      "name": "Tornadic Elemental",
+      "levels": {
+        "Hitpoints": 140,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 83,
+        "Ranged": 1,
+        "Magic": 129
+      },
+      "stances": [
+        "Offensive"
+      ],
+      "attack_bonuses": {
+        "offensive": 230
+      },
+      "defence_bonuses": {
+        "stab": 816,
+        "slash": 733,
+        "block": 900,
+        "crush": 816,
+        "accurate": 86,
+        "powerful": 120,
+        "longrange": 93,
+        "offensive": 649,
+        "defensive": 733
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "SpellMaxHit": 306
+      },
+      "power_ratings": {
+        "normal": 2370
+      },
+      "protection_ratings": {
+        "normal": 659
+      }
+    },
+    {
+      "id": "ToxicMoth",
+      "name": "Toxic Moth",
+      "levels": {
+        "Hitpoints": 35,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 44,
+        "Ranged": 1,
+        "Magic": 70
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 129
+      },
+      "defence_bonuses": {
+        "stab": 262,
+        "slash": 294,
+        "crush": 138,
+        "block": 294,
+        "accurate": 75,
+        "powerful": 44,
+        "longrange": 106,
+        "offensive": 251,
+        "defensive": 289
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 112
+      },
+      "power_ratings": {
+        "normal": 1292
+      },
+      "protection_ratings": {
+        "normal": 140
+      }
+    },
+    {
+      "id": "ToxicRazorfish",
+      "name": "Toxic Razorfish",
+      "levels": {
+        "Hitpoints": 30,
+        "Attack": 50,
+        "Strength": 48,
+        "Defence": 41,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 85
+      },
+      "defence_bonuses": {
+        "stab": 99,
+        "slash": 216,
+        "crush": 245,
+        "block": 227,
+        "accurate": 257,
+        "powerful": 157,
+        "longrange": 303,
+        "offensive": 180,
+        "defensive": 81
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 105
+      },
+      "power_ratings": {
+        "normal": 1207
+      },
+      "protection_ratings": {
+        "normal": 131
+      }
+    },
+    {
+      "id": "ToxicSludge",
+      "name": "Toxic Sludge",
+      "levels": {
+        "Hitpoints": 27,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 44,
+        "Ranged": 1,
+        "Magic": 65
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 103
+      },
+      "defence_bonuses": {
+        "stab": 197,
+        "slash": 221,
+        "crush": 101,
+        "block": 221,
+        "accurate": 53,
+        "powerful": 29,
+        "longrange": 77,
+        "offensive": 187,
+        "defensive": 216
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "SpellMaxHit": 105
+      },
+      "power_ratings": {
+        "normal": 1224
+      },
+      "protection_ratings": {
+        "normal": 121
+      }
+    },
+    {
+      "id": "Treant",
+      "name": "Treant",
+      "levels": {
+        "Hitpoints": 25,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 36,
+        "Ranged": 57,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 113
+      },
+      "defence_bonuses": {
+        "stab": 22,
+        "slash": 27,
+        "crush": 27,
+        "block": 38,
+        "accurate": 61,
+        "powerful": 72,
+        "longrange": 50,
+        "offensive": 163,
+        "defensive": 181
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "RangedStrengthBonus": 13,
+        "Armour": 55
+      },
+      "power_ratings": {
+        "normal": 1059
+      },
+      "protection_ratings": {
+        "normal": 99
+      }
+    },
+    {
+      "id": "UndeadFarmer",
+      "name": "Undead Farmer",
+      "levels": {
+        "Hitpoints": 15,
+        "Attack": 30,
+        "Strength": 30,
+        "Defence": 16,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 43
+      },
+      "defence_bonuses": {
+        "stab": 79,
+        "slash": 88,
+        "crush": 42,
+        "block": 30,
+        "accurate": 54,
+        "powerful": 103,
+        "longrange": 91,
+        "offensive": 60,
+        "defensive": 21
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 10
+      },
+      "power_ratings": {
+        "normal": 686
+      },
+      "protection_ratings": {
+        "normal": 38
+      }
+    },
+    {
+      "id": "Vampire",
+      "name": "Vampire",
+      "levels": {
+        "Hitpoints": 88,
+        "Attack": 93,
+        "Strength": 93,
+        "Defence": 78,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 137
+      },
+      "defence_bonuses": {
+        "stab": 315,
+        "slash": 349,
+        "crush": 190,
+        "block": 148,
+        "accurate": 232,
+        "powerful": 399,
+        "longrange": 357,
+        "offensive": 267,
+        "defensive": 124
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "MeleeStrengthBonus": 144,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 2267
+      },
+      "protection_ratings": {
+        "normal": 450
+      }
+    },
+    {
+      "id": "VenomousViper",
+      "name": "Venomous Viper",
+      "levels": {
+        "Hitpoints": 26,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 43,
+        "Ranged": 65,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 128
+      },
+      "defence_bonuses": {
+        "stab": 100,
+        "slash": 52,
+        "crush": 100,
+        "block": 76,
+        "accurate": 170,
+        "powerful": 123,
+        "longrange": 218,
+        "offensive": 417,
+        "defensive": 378
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "RangedStrengthBonus": 40
+      },
+      "power_ratings": {
+        "normal": 1217
+      },
+      "protection_ratings": {
+        "normal": 118
+      }
+    },
+    {
+      "id": "WillOWisp",
+      "name": "Will O Wisp",
+      "levels": {
+        "Hitpoints": 30,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 41,
+        "Ranged": 1,
+        "Magic": 65
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 101
+      },
+      "defence_bonuses": {
+        "stab": 188,
+        "slash": 211,
+        "crush": 96,
+        "block": 211,
+        "accurate": 50,
+        "powerful": 27,
+        "longrange": 73,
+        "offensive": 179,
+        "defensive": 207
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MaximumWard": 10,
+        "SpellMaxHit": 100
+      },
+      "power_ratings": {
+        "normal": 1203
+      },
+      "protection_ratings": {
+        "normal": 131
+      }
+    },
+    {
+      "id": "WillowTreant",
+      "name": "Willow Treant",
+      "levels": {
+        "Hitpoints": 48,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 53,
+        "Ranged": 1,
+        "Magic": 84
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 128
+      },
+      "defence_bonuses": {
+        "stab": 122,
+        "slash": 138,
+        "crush": 60,
+        "block": 138,
+        "accurate": 28,
+        "powerful": 13,
+        "longrange": 44,
+        "offensive": 115,
+        "defensive": 134
+      },
+      "misc_stats": {
+        "AttackInterval": 3100,
+        "Armour": 75,
+        "SpellMaxHit": 130
+      },
+      "power_ratings": {
+        "normal": 1546
+      },
+      "protection_ratings": {
+        "normal": 214
+      }
+    },
+    {
+      "id": "WindDrifter",
+      "name": "Wind Drifter",
+      "levels": {
+        "Hitpoints": 80,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 75,
+        "Ranged": 119,
+        "Magic": 1
+      },
+      "stances": [
+        "LongRange"
+      ],
+      "attack_bonuses": {
+        "longrange": 256
+      },
+      "defence_bonuses": {
+        "stab": 167,
+        "slash": 136,
+        "crush": 188,
+        "block": 188,
+        "accurate": 135,
+        "powerful": 201,
+        "longrange": 157,
+        "offensive": 956,
+        "defensive": 867
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "RangedStrengthBonus": 96
+      },
+      "power_ratings": {
+        "normal": 2178
+      },
+      "protection_ratings": {
+        "normal": 400
+      }
+    },
+    {
+      "id": "WindElemental",
+      "name": "Wind Elemental",
+      "levels": {
+        "Hitpoints": 115,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 78,
+        "Ranged": 1,
+        "Magic": 120
+      },
+      "stances": [
+        "Defensive"
+      ],
+      "attack_bonuses": {
+        "defensive": 216
+      },
+      "defence_bonuses": {
+        "stab": 686,
+        "slash": 765,
+        "block": 765,
+        "crush": 373,
+        "accurate": 80,
+        "powerful": 47,
+        "longrange": 112,
+        "offensive": 530,
+        "defensive": 608
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "SpellMaxHit": 289
+      },
+      "power_ratings": {
+        "normal": 2212
+      },
+      "protection_ratings": {
+        "normal": 552
+      }
+    },
+    {
+      "id": "WindRipperDrake",
+      "name": "Wind Ripper Drake",
+      "levels": {
+        "Hitpoints": 153,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 85,
+        "Ranged": 131,
+        "Magic": 1
+      },
+      "stances": [
+        "Accurate"
+      ],
+      "attack_bonuses": {
+        "accurate": 283
+      },
+      "defence_bonuses": {
+        "stab": 407,
+        "slash": 237,
+        "block": 322,
+        "crush": 407,
+        "accurate": 265,
+        "powerful": 61,
+        "longrange": 336,
+        "offensive": 918,
+        "defensive": 833
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "RangedStrengthBonus": 142
+      },
+      "power_ratings": {
+        "normal": 2412
+      },
+      "protection_ratings": {
+        "normal": 749
+      }
+    },
+    {
+      "id": "Wolf",
+      "name": "Wolf",
+      "levels": {
+        "Hitpoints": 36,
+        "Attack": 59,
+        "Strength": 58,
+        "Defence": 49,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Slash"
+      ],
+      "attack_bonuses": {
+        "slash": 84
+      },
+      "defence_bonuses": {
+        "stab": 90,
+        "slash": 198,
+        "crush": 225,
+        "block": 209,
+        "accurate": 236,
+        "powerful": 144,
+        "longrange": 279,
+        "offensive": 164,
+        "defensive": 73
+      },
+      "misc_stats": {
+        "AttackInterval": 2400,
+        "MeleeStrengthBonus": 68,
+        "Lifesteal": 0.1
+      },
+      "power_ratings": {
+        "normal": 1436
+      },
+      "protection_ratings": {
+        "normal": 156
+      }
+    },
+    {
+      "id": "Wyvern",
+      "name": "Wyvern",
+      "levels": {
+        "Hitpoints": 65,
+        "Attack": 60,
+        "Strength": 57,
+        "Defence": 52,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Crush"
+      ],
+      "attack_bonuses": {
+        "crush": 102
+      },
+      "defence_bonuses": {
+        "stab": 303,
+        "slash": 124,
+        "crush": 267,
+        "block": 375,
+        "accurate": 124,
+        "powerful": 267,
+        "longrange": 196,
+        "offensive": 103,
+        "defensive": 225
+      },
+      "misc_stats": {
+        "AttackInterval": 2600,
+        "MeleeStrengthBonus": 95
+      },
+      "power_ratings": {
+        "normal": 1457
+      },
+      "protection_ratings": {
+        "normal": 233
+      }
+    },
+    {
+      "id": "YoungBlackDragon",
+      "name": "Young Black Dragon",
+      "levels": {
+        "Hitpoints": 73,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 69,
+        "Ranged": 100,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 189
+      },
+      "defence_bonuses": {
+        "stab": 111,
+        "slash": 126,
+        "crush": 126,
+        "block": 162,
+        "accurate": 234,
+        "powerful": 270,
+        "longrange": 198,
+        "offensive": 595,
+        "defensive": 656
+      },
+      "misc_stats": {
+        "AttackInterval": 2800,
+        "RangedStrengthBonus": 135
+      },
+      "power_ratings": {
+        "normal": 1876
+      },
+      "protection_ratings": {
+        "normal": 338
+      }
+    },
+    {
+      "id": "Zephyr",
+      "name": "Zephyr",
+      "levels": {
+        "Hitpoints": 125,
+        "Attack": 1,
+        "Strength": 1,
+        "Defence": 81,
+        "Ranged": 125,
+        "Magic": 1
+      },
+      "stances": [
+        "Powerful"
+      ],
+      "attack_bonuses": {
+        "powerful": 271
+      },
+      "defence_bonuses": {
+        "stab": 274,
+        "slash": 307,
+        "block": 388,
+        "crush": 307,
+        "accurate": 219,
+        "powerful": 253,
+        "longrange": 58,
+        "offensive": 795,
+        "defensive": 876
+      },
+      "misc_stats": {
+        "AttackInterval": 2300,
+        "RangedStrengthBonus": 127
+      },
+      "power_ratings": {
+        "normal": 2302
+      },
+      "protection_ratings": {
+        "normal": 608
+      }
+    },
+    {
+      "id": "ZuraxatheBroodMother",
+      "name": "Zuraxa, the Brood Mother",
+      "levels": {
+        "Hitpoints": 110,
+        "Attack": 78,
+        "Strength": 70,
+        "Defence": 57,
+        "Ranged": 1,
+        "Magic": 1
+      },
+      "stances": [
+        "Stab"
+      ],
+      "attack_bonuses": {
+        "stab": 156
+      },
+      "defence_bonuses": {
+        "stab": 358,
+        "slash": 395,
+        "crush": 217,
+        "block": 170,
+        "accurate": 264,
+        "powerful": 452,
+        "longrange": 405,
+        "offensive": 304,
+        "defensive": 143
+      },
+      "misc_stats": {
+        "AttackInterval": 2700,
+        "MeleeStrengthBonus": 117
+      },
+      "power_ratings": {
+        "normal": 1774
+      },
+      "protection_ratings": {
+        "normal": 704
+      }
+    }
+  ]
+}

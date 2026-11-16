@@ -1,0 +1,663 @@
+{
+  "game": "Melvor Idle 2 Demo",
+  "build": "v0.11.4-alpha",
+  "source": "Melvor2.exe",
+  "generated": "2026-11-15",
+  "locations": [
+    {
+      "id": "ShallowShores",
+      "name": "Shallow Shores",
+      "level": 1,
+      "demo_locked": false,
+      "spots": [
+        {
+          "id": "ShallowPools",
+          "name": "Shallow Pools",
+          "level": 1,
+          "demo_locked": false,
+          "experience": 8,
+          "fish_chance": 0.8,
+          "min_interval_ms": 4000,
+          "max_interval_ms": 8000,
+          "fish": [
+            {
+              "id": "RawShrimp",
+              "name": "Raw Shrimp",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "BaitBox",
+              "name": "Bait Box",
+              "chance": 0.01,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "CalmShallows",
+          "name": "Calm Shallows",
+          "level": 6,
+          "demo_locked": false,
+          "experience": 13,
+          "fish_chance": 0.8,
+          "min_interval_ms": 5000,
+          "max_interval_ms": 11000,
+          "fish": [
+            {
+              "id": "RawSardine",
+              "name": "Raw Sardine",
+              "weight": 1,
+              "chance": 0.5,
+              "min_quantity": 1,
+              "max_quantity": 1
+            },
+            {
+              "id": "RawShrimp",
+              "name": "Raw Shrimp",
+              "weight": 1,
+              "chance": 0.5,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "PearlClam",
+              "name": "Pearl Clam",
+              "chance": 0.005,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "RockyShores",
+          "name": "Rocky Shores",
+          "level": 44,
+          "demo_locked": false,
+          "experience": 68,
+          "fish_chance": 0.9,
+          "min_interval_ms": 6000,
+          "max_interval_ms": 22000,
+          "fish": [
+            {
+              "id": "RawSardine",
+              "name": "Raw Sardine",
+              "weight": 4,
+              "chance": 0.4444,
+              "min_quantity": 1,
+              "max_quantity": 1
+            },
+            {
+              "id": "RawLobster",
+              "name": "Raw Lobster",
+              "weight": 5,
+              "chance": 0.5556,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "SeashellNecklace",
+              "name": "Seashell Necklace",
+              "chance": 0.001,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ShrapnelRiver",
+      "name": "Shrapnel River",
+      "level": 12,
+      "demo_locked": false,
+      "spots": [
+        {
+          "id": "QuietBend",
+          "name": "Quiet Bend",
+          "level": 12,
+          "demo_locked": false,
+          "experience": 17,
+          "fish_chance": 0.8,
+          "min_interval_ms": 6000,
+          "max_interval_ms": 12000,
+          "fish": [
+            {
+              "id": "RawHerring",
+              "name": "Raw Herring",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "PebbleBank",
+          "name": "Pebble Bank",
+          "level": 23,
+          "demo_locked": false,
+          "experience": 35,
+          "fish_chance": 0.9,
+          "min_interval_ms": 8000,
+          "max_interval_ms": 16000,
+          "fish": [
+            {
+              "id": "RawHerring",
+              "name": "Raw Herring",
+              "weight": 4,
+              "chance": 0.4444,
+              "min_quantity": 1,
+              "max_quantity": 1
+            },
+            {
+              "id": "RawTrout",
+              "name": "Raw Trout",
+              "weight": 5,
+              "chance": 0.5556,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "RustyAncientDagger",
+              "name": "Rusty Ancient Dagger",
+              "chance": 0.005,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "RapidRuns",
+          "name": "Rapid Runs",
+          "level": 39,
+          "demo_locked": false,
+          "experience": 54,
+          "fish_chance": 0.9,
+          "min_interval_ms": 9000,
+          "max_interval_ms": 17000,
+          "fish": [
+            {
+              "id": "RawTrout",
+              "name": "Raw Trout",
+              "weight": 2,
+              "chance": 0.4,
+              "min_quantity": 1,
+              "max_quantity": 1
+            },
+            {
+              "id": "RawSalmon",
+              "name": "Raw Salmon",
+              "weight": 3,
+              "chance": 0.6,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "ShrapnelRepellentGloves",
+              "name": "Shrapnel Repellent Gloves",
+              "chance": 0.002,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "MoonlitStream",
+          "name": "Moonlit Stream",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 6000,
+          "max_interval_ms": 12000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    {
+      "id": "LemvorPier",
+      "name": "Lemvor Pier",
+      "level": 18,
+      "demo_locked": false,
+      "spots": [
+        {
+          "id": "DockWaters",
+          "name": "Dock Waters",
+          "level": 18,
+          "demo_locked": false,
+          "experience": 25,
+          "fish_chance": 0.8,
+          "min_interval_ms": 5000,
+          "max_interval_ms": 17000,
+          "fish": [
+            {
+              "id": "RawPerch",
+              "name": "Raw Perch",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "SeaweedClump",
+              "name": "Seaweed Clump",
+              "chance": 0.007,
+              "quantity": 1
+            },
+            {
+              "id": "BaitBox",
+              "name": "Bait Box",
+              "chance": 0.02,
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "id": "PierWalk",
+          "name": "Pier Walk",
+          "level": 32,
+          "demo_locked": false,
+          "experience": 42,
+          "fish_chance": 0.8,
+          "min_interval_ms": 6000,
+          "max_interval_ms": 18000,
+          "fish": [
+            {
+              "id": "RawPerch",
+              "name": "Raw Perch",
+              "weight": 1,
+              "chance": 0.5,
+              "min_quantity": 1,
+              "max_quantity": 1
+            },
+            {
+              "id": "RawPike",
+              "name": "Raw Pike",
+              "weight": 1,
+              "chance": 0.5,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "LemonChest",
+              "name": "Lemon Chest",
+              "chance": 0.005,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "SeaEdge",
+          "name": "Sea Edge",
+          "level": 55,
+          "demo_locked": false,
+          "experience": 96,
+          "fish_chance": 0.9,
+          "min_interval_ms": 9000,
+          "max_interval_ms": 19000,
+          "fish": [
+            {
+              "id": "RawSeaBream",
+              "name": "Raw Sea Bream",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "SeaweedClump",
+              "name": "Seaweed Clump",
+              "chance": 0.03,
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WindyCoastline",
+      "name": "Windy Coastline",
+      "level": 27,
+      "demo_locked": false,
+      "spots": [
+        {
+          "id": "WindsweptShores",
+          "name": "Windswept Shores",
+          "level": 27,
+          "demo_locked": false,
+          "experience": 16,
+          "fish_chance": 0.9,
+          "min_interval_ms": 2000,
+          "max_interval_ms": 10000,
+          "fish": [
+            {
+              "id": "RawMackerel",
+              "name": "Raw Mackerel",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "SteadfastNet",
+              "name": "Steadfast Net",
+              "chance": 0.002,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "WindyBay",
+          "name": "Windy Bay",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 5000,
+          "max_interval_ms": 15000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "GustyCliffside",
+          "name": "Gusty Cliffside",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 10000,
+          "max_interval_ms": 18000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "MidnightCove",
+          "name": "Midnight Cove",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.8,
+          "min_interval_ms": 10000,
+          "max_interval_ms": 17000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    {
+      "id": "GlowingDepths",
+      "name": "Glowing Depths",
+      "level": 49,
+      "demo_locked": false,
+      "spots": [
+        {
+          "id": "ShimmeringDepths",
+          "name": "Shimmering Depths",
+          "level": 49,
+          "demo_locked": false,
+          "experience": 34,
+          "fish_chance": 1.0,
+          "min_interval_ms": 4000,
+          "max_interval_ms": 10000,
+          "fish": [
+            {
+              "id": "RawGlowfin",
+              "name": "Raw Glowfin",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": [
+            {
+              "id": "GlowstoneRing",
+              "name": "Glowstone Ring",
+              "chance": 0.0002,
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "id": "GlowingRift",
+          "name": "Glowing Rift",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 1.0,
+          "min_interval_ms": 13000,
+          "max_interval_ms": 23000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "LuminousAbyss",
+          "name": "Luminous Abyss",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 1.0,
+          "min_interval_ms": 14000,
+          "max_interval_ms": 26000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    {
+      "id": "CoralReef",
+      "name": "Coral Reef",
+      "level": 0,
+      "demo_locked": true,
+      "spots": [
+        {
+          "id": "VibrantShallows",
+          "name": "Vibrant Shallows",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 11000,
+          "max_interval_ms": 19000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "SharkCove",
+          "name": "Shark Cove",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 17000,
+          "max_interval_ms": 25000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "BountifulCorals",
+          "name": "Bountiful Corals",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 18000,
+          "max_interval_ms": 26000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    {
+      "id": "OpenOcean",
+      "name": "Open Ocean",
+      "level": 0,
+      "demo_locked": true,
+      "spots": [
+        {
+          "id": "TunaRun",
+          "name": "Tuna Run",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.8,
+          "min_interval_ms": 12000,
+          "max_interval_ms": 22000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "SunlitStretch",
+          "name": "Sunlit Stretch",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 0.9,
+          "min_interval_ms": 19000,
+          "max_interval_ms": 29000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        },
+        {
+          "id": "DeepBlue",
+          "name": "Deep Blue",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "fish_chance": 1.0,
+          "min_interval_ms": 22000,
+          "max_interval_ms": 30000,
+          "fish": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "weight": 1,
+              "chance": 1.0,
+              "min_quantity": 1,
+              "max_quantity": 1
+            }
+          ],
+          "special": []
+        }
+      ]
+    }
+  ]
+}

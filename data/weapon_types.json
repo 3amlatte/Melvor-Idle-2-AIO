@@ -1,0 +1,189 @@
+{
+  "game": "Melvor Idle 2",
+  "build": "Demo 0.11.4-alpha",
+  "source": "Melvor2.exe embedded weapon-type data",
+  "generated": "2026-11-14",
+  "weapon_types": [
+    {
+      "id": "Crossbow2H",
+      "name": "2H Crossbow",
+      "stances": [
+        "powerful",
+        "longrange"
+      ]
+    },
+    {
+      "id": "Sword2H",
+      "name": "2H Sword",
+      "stances": [
+        "slash",
+        "block",
+        "crush"
+      ]
+    },
+    {
+      "id": "Accurate",
+      "name": "Accurate",
+      "stances": [
+        "accurate",
+        "longrange"
+      ]
+    },
+    {
+      "id": "Boomerang",
+      "name": "Boomerang",
+      "stances": [
+        "accurate",
+        "longrange"
+      ]
+    },
+    {
+      "id": "Bow",
+      "name": "Bow",
+      "stances": [
+        "accurate",
+        "longrange"
+      ]
+    },
+    {
+      "id": "Claw",
+      "name": "Claw",
+      "stances": [
+        "slash",
+        "block"
+      ]
+    },
+    {
+      "id": "Crossbow",
+      "name": "Crossbow",
+      "stances": [
+        "accurate"
+      ]
+    },
+    {
+      "id": "Dagger",
+      "name": "Dagger",
+      "stances": [
+        "stab",
+        "slash"
+      ]
+    },
+    {
+      "id": "Greatsword",
+      "name": "Greatsword",
+      "stances": [
+        "slash",
+        "block",
+        "crush"
+      ]
+    },
+    {
+      "id": "Javelin",
+      "name": "Javelin",
+      "stances": [
+        "accurate",
+        "longrange"
+      ]
+    },
+    {
+      "id": "Katana",
+      "name": "Katana",
+      "stances": [
+        "stab",
+        "slash"
+      ]
+    },
+    {
+      "id": "Magic",
+      "name": "Magic",
+      "stances": [
+        "offensive"
+      ]
+    },
+    {
+      "id": "Mallet",
+      "name": "Mallet",
+      "stances": [
+        "crush"
+      ]
+    },
+    {
+      "id": "Melee",
+      "name": "Melee",
+      "stances": [
+        "stab",
+        "slash",
+        "crush",
+        "block"
+      ]
+    },
+    {
+      "id": "Morningstar",
+      "name": "Morning Star",
+      "stances": [
+        "crush"
+      ]
+    },
+    {
+      "id": "Scimitar",
+      "name": "Scimitar",
+      "stances": [
+        "slash"
+      ]
+    },
+    {
+      "id": "Spear",
+      "name": "Spear",
+      "stances": [
+        "stab",
+        "slash"
+      ]
+    },
+    {
+      "id": "Staff",
+      "name": "Staff",
+      "stances": [
+        "offensive"
+      ]
+    },
+    {
+      "id": "Sword",
+      "name": "Sword",
+      "stances": [
+        "stab",
+        "slash",
+        "block"
+      ]
+    },
+    {
+      "id": "ThrowHammer",
+      "name": "Thrown Hammer",
+      "stances": [
+        "accurate",
+        "powerful"
+      ]
+    },
+    {
+      "id": "TwinBlades",
+      "name": "Twin Blades",
+      "stances": [
+        "slash"
+      ]
+    },
+    {
+      "id": "Wand",
+      "name": "Wand",
+      "stances": [
+        "offensive",
+        "defensive"
+      ]
+    },
+    {
+      "id": "Whip",
+      "name": "Whip",
+      "stances": [
+        "slash"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "game": "Melvor Idle 2",
+  "build": "Demo 0.11.4-alpha",
+  "source": "Melvor2.exe embedded item Bury capability",
+  "generated": "2026-11-14",
+  "bones": [
+    {
+      "id": "Bone",
+      "name": "Bone",
+      "icon": "res://Assets/Items/Bone.png",
+      "prayer_points": 1,
+      "sells_for": 2,
+      "available_in_demo": true
+    },
+    {
+      "id": "BigBone",
+      "name": "Big Bone",
+      "icon": "res://Assets/Items/BigBone.png",
+      "prayer_points": 6,
+      "sells_for": 8,
+      "available_in_demo": true
+    },
+    {
+      "id": "MagicDust",
+      "name": "Magic Dust",
+      "icon": "res://Assets/Items/MagicDust.png",
+      "prayer_points": 8,
+      "sells_for": 44,
+      "available_in_demo": true
+    },
+    {
+      "id": "SmallDragonBone",
+      "name": "Small Dragon Bone",
+      "icon": "res://Assets/Items/SmallDragonBone.png",
+      "prayer_points": 80,
+      "sells_for": 105,
+      "available_in_demo": true
+    }
+  ]
+}

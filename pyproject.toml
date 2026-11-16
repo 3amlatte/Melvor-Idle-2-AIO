@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mi2-aio"
+version = "0.64"
+description = "Local automation toolkit for Melvor Idle 2 (Steam)"
+requires-python = ">=3.11"
+dependencies = [
+    "mss>=9.0",
+    "pillow>=10.0",
+    "numpy>=1.26",
+    "opencv-python>=4.9",
+    "pyautogui>=0.9.54",
+    "tomlkit>=0.12",
+    "PySide6>=6.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pyinstaller>=6.0", "ruff>=0.17"]
+
+[project.scripts]
+mi2 = "mi2_aio.__main__:main"
+
+[project.gui-scripts]
+mi2-ui = "mi2_aio.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+# Focused correctness/import hygiene checks. Broad exception handling in the
+# game/UI adapters is deliberate and intentionally not linted.
+select = ["E4", "E7", "E9", "F", "I"]

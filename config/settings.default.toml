@@ -1,0 +1,220 @@
+[game]
+# Window title substring used to locate the game.
+window_title = "Melvor2"
+
+[save]
+# Leave empty to auto-discover under %APPDATA%\Games By Malcs\Melvor Idle 2.
+# Set to your save root to override, e.g. '%APPDATA%\Games By Malcs\Melvor Idle 2'
+root = ""
+poll_seconds = 5.0
+# Which character to automate. Empty = newest save. May be a character name
+# (case-insensitive) or a UUID / filename fragment. Useful once the full
+# release allows several characters.
+character = ""
+
+[automation]
+max_runtime_minutes = 480
+emergency_stop_file = "STOP"
+humanize = true
+click_jitter_px = 3
+# Inclusive millisecond range for randomized pauses between actions.
+action_delay_ms = [120, 420]
+# Capture a screenshot into logs/errors whenever a task step raises.
+screenshot_on_error = true
+# Post mouse messages to the game window instead of moving the real cursor,
+# so the bot can act while you use another application. Verified with the
+# demo build (Godot): background clicks work while unfocused/occluded.
+# Set false to always focus the game and use a humanized physical cursor.
+background_input = true
+
+[logging]
+level = "INFO"
+
+# ==========================================================================
+# Combat category
+# ==========================================================================
+
+# --- Slayer (python -m mi2_aio run --task slayer) -------------------------
+[combat.slayer]
+# Jump to the task enemy once when the run starts. A jump restarts the current
+# spawn, so set false if you always start the bot while already fighting the
+# task monster. The bot also jumps whenever the task monster changes.
+jump_on_start = true
+# Seconds between screen checks.
+poll_seconds = 2.0
+# Stop the run when the Eat button is disabled (selected food ran out). This is
+# the safety net that prevents a death while you are away.
+stop_when_out_of_food = true
+# Click "Run from Combat" before stopping, so the character is not left
+# fighting with no food (or at critical HP).
+flee_when_out_of_food = true
+# Jump to the task enemy when task progress has not moved for this many
+# minutes (wrong area, stuck spawn, or Auto Slayer off after a completion).
+stall_minutes = 12.0
+# Stop after this many consecutive stalls (each stall triggers one jump).
+max_stalls = 2
+# Minimum seconds between two jumps.
+jump_cooldown_seconds = 60
+# Wait this long after a weapon switch before judging the combat triangle.
+switch_cooldown_minutes = 3.0
+# Undo a weapon switch if no slayer task progress appears within this window.
+# The combat triangle can recommend a style the character cannot use (for
+# example a weapon above its level); the bot reverts and stops trying that
+# style for the rest of the task.
+switch_grace_minutes = 4.0
+# Choose the best slash/block/crush melee style for the active enemy. The
+# enemy and equipped slots are read from the save (works in dungeons too), and
+# the style maths uses data/enemies.json. Set false to use only the
+# melee/ranged/magic triangle switch below.
+auto_style = true
+# Minimum seconds between melee weapon bank switches. A stance-only change
+# (same weapon, different style) is immediate.
+style_switch_cooldown_seconds = 20.0
+# Equip better owned armour per slot (Defence requirements) from the bank.
+auto_armour = true
+# Re-check armour every this many minutes (armour changes are rare).
+armour_check_minutes = 10.0
+# Stop after this many completed Slayer tasks. 0 = no task limit.
+max_tasks = 0
+
+# Bank item names used for each combat style. When the player is disadvantaged
+# the bot equips the counter style through the bank: Melee -> Ranged ->
+# Magic -> Melee. Use an empty string to leave a style alone. Names must match
+# what the bank search shows first.
+[combat.slayer.weapons]
+melee = "Bone Scythe"
+ranged = "Normal Bow"
+# This demo character has Magic level 1, so staffs cannot be equipped.
+# Leave empty to stop the bot from trying Magic.
+magic = ""
+
+# --- Dungeons (python -m mi2_aio run --task dungeons) ---------------------
+# Raids a standard dungeon (Combat page -> Select Area -> Standard Dungeons),
+# keeps fighting through the waves and collects the completion loot.
+[combat.dungeons]
+# Display name of the dungeon to raid.
+dungeon = "Harvest Farm"
+# Binarized template of the dungeon name in the Standard Dungeons list.
+# Captured at the reference 2560x1369 client size.
+template = "assets/templates/dungeon_harvest_farm.png"
+poll_seconds = 2.0
+stop_when_out_of_food = true
+flee_when_out_of_food = true
+switch_cooldown_minutes = 3.0
+# Choose slash/block/crush per dungeon wave from the save's active enemy id.
+auto_style = true
+style_switch_cooldown_seconds = 20.0
+# Equip better owned armour pieces between waves.
+auto_armour = true
+armour_check_minutes = 10.0
+
+[combat.dungeons.weapons]
+melee = "Bone Scythe"
+ranged = "Normal Bow"
+magic = ""
+
+# --- Prayer upkeep (runs alongside the main task) -------------------------
+# Bury bones from the bank to restore Prayer points. Bones are buried in
+# batches so the bot does not open the bank after every kill. The bury action
+# uses the bank item's "All" quantity then its "Bury N Bones" button.
+[combat.prayer]
+enabled = true
+# Bury once this many bones have accumulated (Bone, Big Bone, Magic Dust and
+# Small Dragon Bone all count).
+bone_threshold = 50
+# Also bury when Prayer points are below this value and at least one bone is
+# owned (for example after prayer drain).
+low_prayer_threshold = 100
+# Minimum seconds between checks, to avoid bank spam.
+check_seconds = 60
+# Wait this long for the save to confirm a bury before giving up.
+verify_seconds = 12
+
+# --- Farming maintenance (runs alongside the main task) -------------------
+[farming]
+# When enabled, the runner checks farming between main-task steps. The bot
+# switches to the Farming page only when the red attention badge appears on the
+# Farming skill icon, then returns to the main task's page. The crop is whatever
+# is already selected per plot.
+enabled = true
+# Service a needed farm pass before the main task step. When false, the task
+# gets its step first and farming is checked afterwards.
+prioritise = true
+# Cheap attention-badge check interval (seconds).
+badge_poll_seconds = 5.0
+# Optional safety full pass (minutes). 0 = only when the red badge appears.
+check_minutes = 0.0
+# Plot categories to service, in order.
+categories = ["allotments", "herbs", "compost", "trees", "flowers", "orchard", "mill"]
+harvest = true
+compost = true
+# Select the compost type in the plot header before applying it. Slot 1 is
+# Fertiliser in the demo picker; slot 2 is Compost; slot 3 is the third compost.
+select_compost = true
+compost_slot = 1
+plant = true
+water = true
+# After a pass, return to the page of the action currently being performed
+# (combat, woodcutting, mining, ...) using the sidebar's action button.
+restore_page = true
+
+# --- Idle failsafe --------------------------------------------------------
+[failsafe]
+# When the save header shows no active action, start this fallback so the bot
+# is never idle. `page` is the sidebar icon of the skill page and `button` is
+# the action's Start/Cut button (reference client coordinates, 2560x1369).
+enabled = true
+action = "Spikemoss Shrub"
+page = [39, 303]
+button = [1082, 1096]
+cooldown_seconds = 60
+
+# --- Restore the previous action ------------------------------------------
+# When a run ends, resume whatever the character was doing before it started.
+# For example: Woodcutting -> Willow Tree, a dungeon test, then Woodcutting
+# again. The bot learns the action's page and card from the game at startup, so
+# this works for any skilling action without extra configuration.
+[restore]
+enabled = true
+# How long to wait for the save header to confirm the action restarted.
+verify_seconds = 25
+poll_seconds = 1.5
+
+# Game-mode (character-type) profiles. The save header supplies the name
+# ("Test" in this demo). Matching is case/punctuation-insensitive against the
+# key, display_name, and aliases. Unknown names fall back to [gamemodes.unknown],
+# which assumes permanent death and blocks risky tasks.
+#
+# Tasks declare `supported_modes` and `risky`; the runner refuses to start a
+# task that the active profile does not allow.
+
+[gamemodes.regular]
+display_name = "Regular"
+aliases = ["regular", "standard", "normal", "softcore"]
+permanent_death = false
+allow_risky_tasks = true
+min_hp_ratio = 0.35
+blocked_tasks = []
+
+[gamemodes.hardcore]
+display_name = "Hardcore"
+aliases = ["hardcore", "hc"]
+permanent_death = true
+allow_risky_tasks = false
+min_hp_ratio = 0.65
+blocked_tasks = []
+
+[gamemodes.test]
+display_name = "Test / Demo"
+aliases = ["test", "demo", "testing"]
+permanent_death = false
+allow_risky_tasks = true
+min_hp_ratio = 0.35
+blocked_tasks = []
+
+[gamemodes.unknown]
+display_name = "Unknown"
+permanent_death = true
+allow_risky_tasks = false
+min_hp_ratio = 0.75
+blocked_tasks = []

@@ -1,0 +1,542 @@
+{
+  "game": "Melvor Idle 2",
+  "build": "Demo 0.11.4-alpha",
+  "source": "Melvor2.exe embedded combat-area data",
+  "generated": "2026-11-14",
+  "dungeons": [
+    {
+      "id": "BlackDragonsLair",
+      "name": "Black Dragon's Lair",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "BabyBlackDragon",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "YoungBlackDragon",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "BlackDragon",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "KingBlackDragon",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "BlackstoneGauntlet",
+      "name": "Blackstone Gauntlet",
+      "category": "StandardDungeons",
+      "difficulty": "Advanced",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 3,
+          "enemies": [
+            {
+              "enemy": "GasBall",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "BlackstoneGolem",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MagmortheMoltenBehemoth",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "BlightedScar",
+      "name": "Blighted Scar",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "ScarGolem",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "EraxitheBlightedScar",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "BloodSanctum",
+      "name": "Blood Sanctum",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "BloodImp",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "BloodFiend",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "BloodSummoner",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "SanguistheCrimsonArcanist",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "GlowsquidCaverns",
+      "name": "Glowsquid Caverns",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "Glowsquid",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "HypnoticGlowsquid",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "DisorientatingGlowsquid",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MesmeristheSlumberingPrincess",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "HarvestFarm",
+      "name": "Harvest Farm",
+      "category": "StandardDungeons",
+      "difficulty": "Intermediate",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MagicCow",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "JackOLantern",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "UndeadFarmer",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MorgistheGraveCorruptor",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "fixed_items": [
+          {
+            "item": "HarvestFarmChest",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "fixed_currencies": [
+          {
+            "currency": "GoldPieces",
+            "min": 150,
+            "max": 150
+          }
+        ]
+      }
+    },
+    {
+      "id": "HobgolbinCamp",
+      "name": "Hobgolbin Camp",
+      "category": "StandardDungeons",
+      "difficulty": "Easy",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "Golbin",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MindGolbin",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "Hobgolbin",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "GhelbaktheHobChief",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "fixed_items": [
+          {
+            "item": "HobgolbinChest",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "fixed_currencies": [
+          {
+            "currency": "GoldPieces",
+            "min": 100,
+            "max": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "KrakensDomain",
+      "name": "Kraken's Domain",
+      "category": "StandardDungeons",
+      "difficulty": "AwHellNah",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 3,
+          "enemies": [
+            {
+              "enemy": "Krakeling",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "KrakentheDrownedOverlord",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "MurkwoodLair",
+      "name": "Murkwood Lair",
+      "category": "StandardDungeons",
+      "difficulty": "Advanced",
+      "darkness": 50,
+      "waves": [
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MurkwoodSpider",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MurkwoodSpinner",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "MurkwoodWeaver",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "ZuraxatheBroodMother",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "ShiftsandRuins",
+      "name": "Shiftsand Ruins",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "SandMummy",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "enemies": [
+            {
+              "enemy": "SandSentinel",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "ShiftsandGuardianSentinel",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "QazaraktheShiftsandGuardian",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    },
+    {
+      "id": "VenomPit",
+      "name": "Venom Pit",
+      "category": "StandardDungeons",
+      "difficulty": "Advanced",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "VenomousViper",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "ToxicSludge",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "PoisonousSerpent",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "KythisstheVenomQueen",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {
+        "fixed_items": [
+          {
+            "item": "VenomChest",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "fixed_currencies": [
+          {
+            "currency": "GoldPieces",
+            "min": 320,
+            "max": 320
+          }
+        ]
+      }
+    },
+    {
+      "id": "WurmHunt",
+      "name": "Wurm Hunt",
+      "category": "StandardDungeons",
+      "difficulty": "Elite",
+      "darkness": 0,
+      "waves": [
+        {
+          "count": 4,
+          "enemies": [
+            {
+              "enemy": "BabyWurm",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "count": 1,
+          "enemies": [
+            {
+              "enemy": "SandWurm",
+              "weight": 1
+            }
+          ]
+        }
+      ],
+      "rewards": {}
+    }
+  ]
+}

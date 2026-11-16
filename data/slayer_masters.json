@@ -1,0 +1,546 @@
+{
+  "game": "Melvor Idle 2",
+  "build": "Demo 0.11.4-alpha",
+  "source": "Melvor2.exe embedded SlayerMaster data",
+  "generated": "2026-11-14",
+  "masters": [
+    {
+      "id": "Kuren",
+      "name": "Kuren",
+      "icon": "res://Assets/Skills/Slayer/Kuren.png",
+      "areas": [
+        {
+          "id": "GolbinForest",
+          "name": "Golbin Forest"
+        },
+        {
+          "id": "CorruptedFarmlands",
+          "name": "Corrupted Farmlands"
+        }
+      ],
+      "unlock_requirements": [],
+      "base_task_length": 15,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 250
+      },
+      "block_slots": [
+        {
+          "id": "KurenBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "KurenBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 2000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Allevia",
+      "name": "Allevia",
+      "icon": "res://Assets/Skills/Slayer/Allevia.png",
+      "areas": [
+        {
+          "id": "SlimeForest",
+          "name": "Slime Forest"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "Level",
+          "skill": "Slayer",
+          "level": 10
+        }
+      ],
+      "base_task_length": 25,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 750
+      },
+      "block_slots": [
+        {
+          "id": "AlleviaBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "AlleviaBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 5000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Satsgar",
+      "name": "Satsgar",
+      "icon": "res://Assets/Skills/Slayer/Satsgar.png",
+      "areas": [
+        {
+          "id": "GreenMangroves",
+          "name": "Green Mangroves"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "Level",
+          "skill": "Slayer",
+          "level": 20
+        }
+      ],
+      "base_task_length": 35,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 1500
+      },
+      "block_slots": [
+        {
+          "id": "SatsgarBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "SatsgarBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 10000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Fells",
+      "name": "Fells",
+      "icon": "res://Assets/Skills/Slayer/Fells.png",
+      "areas": [
+        {
+          "id": "StingingNest",
+          "name": "Stinging Nest"
+        },
+        {
+          "id": "ToxicBog",
+          "name": "Toxic Bog"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "Level",
+          "skill": "Slayer",
+          "level": 30
+        }
+      ],
+      "base_task_length": 45,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 2500
+      },
+      "block_slots": [
+        {
+          "id": "FellsBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "FellsBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 15000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Galan",
+      "name": "Galan",
+      "icon": "res://Assets/Skills/Slayer/Galan.png",
+      "areas": [
+        {
+          "id": "ToweringDivide",
+          "name": "Towering Divide"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "Level",
+          "skill": "Slayer",
+          "level": 40
+        }
+      ],
+      "base_task_length": 55,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 3500
+      },
+      "block_slots": [
+        {
+          "id": "GalanBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "GalanBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 25000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Hans",
+      "name": "Hans",
+      "icon": "res://Assets/Skills/Slayer/Hans.png",
+      "areas": [
+        {
+          "id": "DragonsPass",
+          "name": "Dragon's Pass"
+        },
+        {
+          "id": "BlackstoneBasin",
+          "name": "Blackstone Basin"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "Level",
+          "skill": "Slayer",
+          "level": 50
+        }
+      ],
+      "base_task_length": 65,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 5000
+      },
+      "block_slots": [
+        {
+          "id": "HansBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "HansBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 40000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Feriken",
+      "name": "Feriken",
+      "icon": "res://Assets/Icons/question.png",
+      "areas": [
+        {
+          "id": "DesertPlains",
+          "name": "Desert Plains"
+        },
+        {
+          "id": "GlowingDepths",
+          "name": "Glowing Depths"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "DemoLocked",
+          "value": null,
+          "skill": "CompletionLog"
+        }
+      ],
+      "base_task_length": 80,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 7500
+      },
+      "block_slots": [
+        {
+          "id": "FerikenBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "FerikenBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 50000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Telbran",
+      "name": "Telbran",
+      "icon": "res://Assets/Icons/question.png",
+      "areas": [
+        {
+          "id": "GemstonePinnacles",
+          "name": "Gemstone Pinnacles"
+        },
+        {
+          "id": "WindyPlains",
+          "name": "Windy Plains"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "DemoLocked",
+          "value": null,
+          "skill": "CompletionLog"
+        }
+      ],
+      "base_task_length": 90,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 10000
+      },
+      "block_slots": [
+        {
+          "id": "TelbranBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "TelbranBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 85000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Mariabelle",
+      "name": "Mariabelle",
+      "icon": "res://Assets/Icons/question.png",
+      "areas": [
+        {
+          "id": "Bloodlands",
+          "name": "Bloodlands"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "DemoLocked",
+          "value": null,
+          "skill": "CompletionLog"
+        }
+      ],
+      "base_task_length": 110,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 15000
+      },
+      "block_slots": [
+        {
+          "id": "MariabelleBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "MariabelleBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 100000
+      },
+      "reward_currency": "SlayerCoins"
+    },
+    {
+      "id": "Zaos",
+      "name": "Zaos",
+      "icon": "res://Assets/Icons/question.png",
+      "areas": [
+        {
+          "id": "ShipwreckIsles",
+          "name": "Shipwreck Isles"
+        },
+        {
+          "id": "DrownedAbyss",
+          "name": "Drowned Abyss"
+        }
+      ],
+      "unlock_requirements": [
+        {
+          "type": "DemoLocked",
+          "value": null,
+          "skill": "CompletionLog"
+        }
+      ],
+      "base_task_length": 125,
+      "reroll_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 25000
+      },
+      "block_slots": [
+        {
+          "id": "ZaosBlock1",
+          "tasks_completed": 5,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "ZaosBlock2",
+          "tasks_completed": 20,
+          "requirements": [
+            {
+              "type": "SlayerMasterStatistic",
+              "statistic": "SlayerMasterTasksCompleted",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "block_cost": {
+        "currency": "SlayerCoins",
+        "quantity": 125000
+      },
+      "reward_currency": "SlayerCoins"
+    }
+  ]
+}

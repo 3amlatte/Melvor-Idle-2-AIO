@@ -1,0 +1,665 @@
+{
+  "game": "Melvor Idle 2 Demo",
+  "build": "v0.11.4-alpha",
+  "source": "Melvor2.exe",
+  "generated": "2026-11-15",
+  "categories": [
+    {
+      "id": "BasicFood",
+      "name": "Basic Food",
+      "subcategory": "Proteins",
+      "recipes": [
+        {
+          "id": "Shrimp",
+          "name": "Shrimp",
+          "level": 1,
+          "demo_locked": false,
+          "experience": 5,
+          "interval_ms": 3000,
+          "difficulty": 31,
+          "grid_slot": 0,
+          "ingredients": [
+            {
+              "id": "RawShrimp",
+              "name": "Raw Shrimp",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Shrimp",
+              "name": "Shrimp",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Sardine",
+          "name": "Sardine",
+          "level": 6,
+          "demo_locked": false,
+          "experience": 10,
+          "interval_ms": 3000,
+          "difficulty": 38,
+          "grid_slot": 1,
+          "ingredients": [
+            {
+              "id": "RawSardine",
+              "name": "Raw Sardine",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Sardine",
+              "name": "Sardine",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Beef",
+          "name": "Beef",
+          "level": 10,
+          "demo_locked": false,
+          "experience": 4,
+          "interval_ms": 3000,
+          "difficulty": 72,
+          "grid_slot": 2,
+          "ingredients": [
+            {
+              "id": "RawBeef",
+              "name": "Raw Beef",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Beef",
+              "name": "Beef",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Herring",
+          "name": "Herring",
+          "level": 12,
+          "demo_locked": false,
+          "experience": 10,
+          "interval_ms": 3000,
+          "difficulty": 75,
+          "grid_slot": 3,
+          "ingredients": [
+            {
+              "id": "RawHerring",
+              "name": "Raw Herring",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Herring",
+              "name": "Herring",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Chicken",
+          "name": "Chicken",
+          "level": 15,
+          "demo_locked": false,
+          "experience": 5,
+          "interval_ms": 3000,
+          "difficulty": 80,
+          "grid_slot": 4,
+          "ingredients": [
+            {
+              "id": "RawChicken",
+              "name": "Raw Chicken",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Chicken",
+              "name": "Chicken",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Perch",
+          "name": "Perch",
+          "level": 18,
+          "demo_locked": false,
+          "experience": 14,
+          "interval_ms": 3000,
+          "difficulty": 84,
+          "grid_slot": 5,
+          "ingredients": [
+            {
+              "id": "RawPerch",
+              "name": "Raw Perch",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Perch",
+              "name": "Perch",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Trout",
+          "name": "Trout",
+          "level": 23,
+          "demo_locked": false,
+          "experience": 21,
+          "interval_ms": 3000,
+          "difficulty": 112,
+          "grid_slot": 6,
+          "ingredients": [
+            {
+              "id": "RawTrout",
+              "name": "Raw Trout",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Trout",
+              "name": "Trout",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Mackerel",
+          "name": "Mackerel",
+          "level": 27,
+          "demo_locked": false,
+          "experience": 11,
+          "interval_ms": 3000,
+          "difficulty": 118,
+          "grid_slot": 7,
+          "ingredients": [
+            {
+              "id": "RawMackerel",
+              "name": "Raw Mackerel",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Mackerel",
+              "name": "Mackerel",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Pike",
+          "name": "Pike",
+          "level": 32,
+          "demo_locked": false,
+          "experience": 28,
+          "interval_ms": 3000,
+          "difficulty": 147,
+          "grid_slot": 8,
+          "ingredients": [
+            {
+              "id": "RawPike",
+              "name": "Raw Pike",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Pike",
+              "name": "Pike",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Salmon",
+          "name": "Salmon",
+          "level": 39,
+          "demo_locked": false,
+          "experience": 29,
+          "interval_ms": 3000,
+          "difficulty": 157,
+          "grid_slot": 10,
+          "ingredients": [
+            {
+              "id": "RawSalmon",
+              "name": "Raw Salmon",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Salmon",
+              "name": "Salmon",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Lobster",
+          "name": "Lobster",
+          "level": 44,
+          "demo_locked": false,
+          "experience": 39,
+          "interval_ms": 3000,
+          "difficulty": 185,
+          "grid_slot": 11,
+          "ingredients": [
+            {
+              "id": "RawLobster",
+              "name": "Raw Lobster",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Lobster",
+              "name": "Lobster",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Glowfin",
+          "name": "Glowfin",
+          "level": 49,
+          "demo_locked": false,
+          "experience": 22,
+          "interval_ms": 3000,
+          "difficulty": 192,
+          "grid_slot": 12,
+          "ingredients": [
+            {
+              "id": "RawGlowfin",
+              "name": "Raw Glowfin",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "Glowfin",
+              "name": "Glowfin",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "SeaBream",
+          "name": "Sea Bream",
+          "level": 55,
+          "demo_locked": false,
+          "experience": 45,
+          "interval_ms": 3000,
+          "difficulty": 222,
+          "grid_slot": 13,
+          "ingredients": [
+            {
+              "id": "RawSeaBream",
+              "name": "Raw Sea Bream",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "SeaBream",
+              "name": "Sea Bream",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Cod",
+          "name": "Cod",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 254,
+          "grid_slot": 9,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "SeaBass",
+          "name": "Sea Bass",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 261,
+          "grid_slot": 14,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Lionfish",
+          "name": "Lionfish",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 291,
+          "grid_slot": 15,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "GlowingJellyfish",
+          "name": "Glowing Jellyfish",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 298,
+          "grid_slot": 16,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Tuna",
+          "name": "Tuna",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 325,
+          "grid_slot": 17,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Shark",
+          "name": "Shark",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 334,
+          "grid_slot": 18,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "GlowingSquid",
+          "name": "Glowing Squid",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 377,
+          "grid_slot": 19,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "GiantEel",
+          "name": "Giant Eel",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 422,
+          "grid_slot": 20,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "MantaRay",
+          "name": "Manta Ray",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 465,
+          "grid_slot": 21,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "Whale",
+          "name": "Whale",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 508,
+          "grid_slot": 22,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "GriffinSteak",
+          "name": "Griffin Steak",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 270,
+          "grid_slot": 23,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "MoonlightMinnow",
+          "name": "Moonlight Minnow",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 152,
+          "grid_slot": 24,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "id": "StripedMullet",
+          "name": "Striped Mullet",
+          "level": 0,
+          "demo_locked": true,
+          "experience": 1,
+          "interval_ms": 10000,
+          "difficulty": 288,
+          "grid_slot": 25,
+          "ingredients": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1
+            }
+          ],
+          "products": [
+            {
+              "id": "DemoPlaceholderItem",
+              "name": "Demo Placeholder Item",
+              "quantity": 1,
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

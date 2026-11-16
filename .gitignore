@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Build output
+tools/bin/
+bin/
+obj/
+build/
+dist/
+
+# Runtime artifacts
+logs/
+*.log
+STOP
+
+# Local configuration (contains your character/save choices)
+config/settings.toml
+
+# Editors / OS / secrets
+.idea/
+.vscode/
+.env
+.DS_Store
+*.bak
+*.tmp
