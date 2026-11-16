@@ -66,7 +66,7 @@ class StyleSwitcher:
         self._equipped_until = 0.0
         self._missing_defenders: set[str] = set()
         self._last_logged: dict[str, float] = {}
-        self._last_armour_check = 0.0
+        self._last_armour_check = float("-inf")  # force the first check
         self._armour_logged = False
 
     # -- plumbing --------------------------------------------------------
