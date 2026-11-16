@@ -56,7 +56,7 @@ class FishingTask(Task):
         self._location_index = 0
         self._spot_index = 0
         self._attempts = 0
-        self._last_attempt = 0.0
+        self._last_attempt = float("-inf")
         self._active_logged = False
         self._dry_run_logged = False
         self._start_logged = False

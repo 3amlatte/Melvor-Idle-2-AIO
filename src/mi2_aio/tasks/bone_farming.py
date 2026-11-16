@@ -44,7 +44,7 @@ class BoneFarmingTask(Task):
     skip_failsafe = True
 
     def __init__(self) -> None:
-        self._last_nav_at = 0.0
+        self._last_nav_at = float("-inf")
         self._fight_clicked_at = 0.0
         self._dry_run_logged = False
         self._target_logged = False

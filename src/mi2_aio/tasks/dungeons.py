@@ -39,14 +39,14 @@ class DungeonTask(Task):
     def __init__(self) -> None:
         self._template: np.ndarray | None = None
         self._template_missing = False
-        self._last_switch_at = 0.0
+        self._last_switch_at = float("-inf")
         self._switch_blocked_until = 0.0
         self._pending_style: str | None = None
         self._pending_since = 0.0
         self._no_food_polls = 0
-        self._last_page_click = 0.0
+        self._last_page_click = float("-inf")
         self._page_fix_stage = 0
-        self._last_nav_attempt = 0.0
+        self._last_nav_attempt = float("-inf")
         self._warned_at: dict[str, float] = {}
         self._started = False
         self._style_switcher: StyleSwitcher | None = None

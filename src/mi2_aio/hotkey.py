@@ -55,7 +55,7 @@ class KeyboardToggleHook:
         self.should_toggle = should_toggle
         self._handle = None
         self._proc = None
-        self._last_toggle = 0.0
+        self._last_toggle = float("-inf")
         self._armed = True
         self.user32 = ctypes.WinDLL("user32", use_last_error=True)
         self.user32.GetAsyncKeyState.argtypes = [ctypes.c_int]

@@ -24,7 +24,7 @@ from .window import capture_client, is_minimized
 class IdleFailsafe:
     def __init__(self, settings: Settings) -> None:
         self.settings = settings.failsafe
-        self._last_attempt = 0.0
+        self._last_attempt = float("-inf")
         self._pending = False
 
     def poll(self, ctx: TaskContext) -> None:

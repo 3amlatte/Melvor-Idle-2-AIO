@@ -58,7 +58,7 @@ class PrayerMaintenance:
     def __init__(self, settings) -> None:
         self.settings = settings.prayer
         self.bones = bone_db.load_bones()
-        self._last_check = 0.0
+        self._last_check = float("-inf")
 
     # -- polling ---------------------------------------------------------
     def poll(self, ctx: TaskContext) -> None:

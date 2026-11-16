@@ -61,7 +61,7 @@ class StyleSwitcher:
         self._decision: MeleeDecision | None = None
         self._blocked: set[tuple[str, str | None]] = set()
         self._blocked_until = 0.0
-        self._last_switch_at = 0.0
+        self._last_switch_at = float("-inf")
         self._equipped_key: tuple[str, str | None] | None = None
         self._equipped_until = 0.0
         self._missing_defenders: set[str] = set()
@@ -220,7 +220,7 @@ class StyleSwitcher:
         self._decision = None
         self._blocked.clear()
         self._blocked_until = 0.0
-        self._last_switch_at = 0.0
+        self._last_switch_at = float("-inf")
         # Keep _equipped_key until it expires; the save may not have caught up
         # with the last bank switch yet.
         self._missing_defenders.clear()
@@ -422,7 +422,7 @@ class StyleSwitcher:
             self._decision = None
             self._blocked.clear()
             self._blocked_until = 0.0
-            self._last_switch_at = 0.0
+            self._last_switch_at = float("-inf")
             # Keep _equipped_key: the save's equipment block can lag behind a
             # bank switch by an autosave, and the manager just equipped it.
             self._missing_defenders.clear()

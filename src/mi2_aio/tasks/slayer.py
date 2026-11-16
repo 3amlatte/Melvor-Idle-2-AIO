@@ -50,8 +50,8 @@ class SlayerTask(Task):
         self._progress_sig: bytes | None = None
         self._last_progress_at = 0.0
         self._stalls = 0
-        self._last_jump_at = 0.0
-        self._last_switch_at = 0.0
+        self._last_jump_at = float("-inf")
+        self._last_switch_at = float("-inf")
         self._switch_blocked_until = 0.0
         self._pending_style: str | None = None
         self._pending_from: str | None = None
@@ -62,7 +62,7 @@ class SlayerTask(Task):
         self._switch_progress_sig: bytes | None = None
         self._blocked_targets: set[str] = set()
         self._no_food_polls = 0
-        self._last_page_click = 0.0
+        self._last_page_click = float("-inf")
         self._page_fix_stage = 0
         self._warned_at: dict[str, float] = {}
         self._last_header: SaveHeader | None = None

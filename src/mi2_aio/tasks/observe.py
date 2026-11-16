@@ -15,7 +15,7 @@ class ObserveTask(Task):
 
     def __init__(self) -> None:
         self._previous: SaveHeader | None = None
-        self._last_gp_log = 0.0
+        self._last_gp_log = float("-inf")
 
     def start(self, ctx: TaskContext) -> None:
         ctx.logger.info("Watching: %s", ctx.window.describe())
