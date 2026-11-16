@@ -12,14 +12,26 @@ does not patch the game or modify saves.
 > reference crops and extracted game data remain their owners' property and are
 > not covered by the MIT license — see [NOTICE.md](NOTICE.md).
 
+## Download (no Python required)
+
+Download **`MI2-AIO-<version>-win64.zip`** from
+[Releases](https://github.com/3amlatte/Melvor-Idle-2-AIO/releases), extract it,
+and run **`MI2 AIO.exe`**. No Python, pip, .NET or commands are needed.
+
+- The first launch checks your setup and explains anything missing.
+- Settings and logs live in `%APPDATA%\MI2 AIO`.
+- Keep `MI2 AIO.exe` next to `_internal`; don't move individual files.
+- The build is unsigned, so Windows SmartScreen may warn. Use **More info →
+  Run anyway** after checking the SHA256 published with the release.
+
 ## Requirements
 
-- Windows 10/11
-- Melvor Idle 2 (tested with the demo build `v0.11.4-alpha`)
-- Python 3.11+ for source runs
-- .NET SDK for building the Brotli save helper (the .NET runtime alone is not enough)
+- **Packaged release:** Windows 10/11 and Melvor Idle 2. Nothing else.
+- **From source:** Python 3.11+ and the .NET 8 SDK (to build the save helper).
 
-## Quick start
+Melvor Idle 2 is tested with the demo build `v0.11.4-alpha`.
+
+## Quick start (from source)
 
 ```powershell
 git clone https://github.com/3amlatte/Melvor-Idle-2-AIO.git
@@ -47,7 +59,15 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build_app.ps1
 # -> dist\MI2 AIO\MI2 AIO.exe
 ```
 
-The packaged app keeps writable config/logs in `%APPDATA%\MI2 AIO`.
+Release package (portable zip + SHA256):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\package_app.ps1
+# -> dist\MI2-AIO-<version>-win64.zip
+```
+
+The packaged app keeps writable config/logs in `%APPDATA%\MI2 AIO`. GitHub
+Actions builds and attaches the zip for every `v*` tag.
 
 ## Features
 

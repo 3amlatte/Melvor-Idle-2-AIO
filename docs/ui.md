@@ -248,8 +248,8 @@ A frozen/PyInstaller build:
 - resources (`config`, `data`, `assets`, `tools/bin`) come from `sys._MEIPASS`
 - writable config and logs live in `%APPDATA%\MI2 AIO`
 - the first launch copies the bundled default `settings.toml` to the user folder
-- `SaveTool.exe` must be shipped; a packaged app does not try to install the
-  .NET SDK
+- `SaveTool.exe` is shipped and **self-contained**: packaged users do not need
+  the .NET runtime or SDK.
 
 ## Build a standalone app
 
@@ -260,6 +260,19 @@ A frozen/PyInstaller build:
 It builds any missing `SaveTool.exe`, installs PyInstaller if needed, and runs
 `mi2_aio.spec`. Output: `dist\MI2 AIO\MI2 AIO.exe` (windowed, no console).
 The icon is `assets/icon.ico`.
+
+To create the portable release package (extract-and-run zip plus SHA256):
+
+```powershell
+.\scripts\package_app.ps1
+# dist\MI2-AIO-<version>-win64.zip
+# dist\SHA256.txt
+```
+
+`package_app.ps1` forces a self-contained `SaveTool.exe` build and adds a
+`README.txt` with first-run instructions. GitHub Actions builds and attaches the
+zip for every `v*` tag (`.github/workflows/release.yml`), so users only download
+the zip, extract it, and run `MI2 AIO.exe` — no Python or commands.
 
 ### Windows Defender false positives
 
