@@ -22,7 +22,8 @@ and run **`MI2 AIO.exe`**. No Python, pip, .NET or commands are needed.
 - Settings and logs live in `%APPDATA%\MI2 AIO`.
 - Keep `MI2 AIO.exe` next to `_internal`; don't move individual files.
 - The build is unsigned, so Windows SmartScreen may warn. Use **More info →
-  Run anyway** after checking the SHA256 published with the release.
+  Run anyway** after checking the SHA256 published with the release. Code
+  signing options are in [docs/signing.md](docs/signing.md).
 
 ## Requirements
 
@@ -133,6 +134,7 @@ Durations are minutes; `0` means until stopped.
 | Topic | Document |
 | --- | --- |
 | Desktop app and packaging | [docs/ui.md](docs/ui.md) |
+| Code signing | [docs/signing.md](docs/signing.md) |
 | Display independence | [docs/display.md](docs/display.md) |
 | Combat, Slayer, Dungeons, gear | [docs/combat.md](docs/combat.md), [docs/combat-gear.md](docs/combat-gear.md), [docs/slayer.md](docs/slayer.md) |
 | Farming | [docs/farming.md](docs/farming.md) |

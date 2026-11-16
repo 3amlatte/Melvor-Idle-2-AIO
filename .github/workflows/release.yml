@@ -1,3 +1,5 @@
+# Unsigned by default. Signed releases: see docs/signing.md (SignPath Foundation,
+# Azure Trusted Signing, or a CA hardware/cloud certificate).
 name: Release
 
 on:

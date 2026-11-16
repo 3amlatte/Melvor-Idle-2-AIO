@@ -1,3 +1,11 @@
+param(
+    [string]$Thumbprint = "",
+    [string]$PfxPath = "",
+    [string]$PfxPassword = "",
+    [string]$TimestampUrl = "http://timestamp.digicert.com",
+    [string]$SignTool = ""
+)
+
 # Build the standalone desktop app and package it for a GitHub release.
 $ErrorActionPreference = "Stop"
 
@@ -24,6 +32,18 @@ if (-not $version) {
 $dist = Join-Path $root "dist\MI2 AIO"
 if (-not (Test-Path $dist)) {
     throw "Build output is missing: $dist"
+}
+
+if ($Thumbprint -or $PfxPath) {
+    & (Join-Path $PSScriptRoot "sign_app.ps1") `
+        -Root $dist `
+        -Thumbprint $Thumbprint `
+        -PfxPath $PfxPath `
+        -PfxPassword $PfxPassword `
+        -TimestampUrl $TimestampUrl `
+        -SignTool $SignTool
+} else {
+    Write-Warning "No signing certificate supplied; this release will be unsigned. See docs/signing.md."
 }
 
 $stageRoot = Join-Path $root "dist\_package"

@@ -274,6 +274,18 @@ To create the portable release package (extract-and-run zip plus SHA256):
 zip for every `v*` tag (`.github/workflows/release.yml`), so users only download
 the zip, extract it, and run `MI2 AIO.exe` — no Python or commands.
 
+Signing is optional and done on the executables before zipping:
+
+```powershell
+.\scripts\package_app.ps1 -Thumbprint "<cert-thumbprint>"
+```
+
+The certificate must be a CA-issued code-signing certificate in the Windows
+store (USB token) or a cloud signing service. `sign_app.ps1` signs
+`MI2 AIO.exe` and `_internal\tools\bin\SaveTool.exe` with SHA-256 + timestamp and
+verifies them. See [signing.md](signing.md) for SignPath, Azure Trusted Signing
+and certificate options.
+
 ### Windows Defender false positives
 
 PyInstaller executables are occasionally quarantined by Defender's machine
