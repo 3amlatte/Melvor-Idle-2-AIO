@@ -1,5 +1,7 @@
 # MI2 AIO — Melvor Idle 2 automation toolkit
 
+[![CI](https://github.com/3amlatte/Melvor-Idle-2-AIO/actions/workflows/ci.yml/badge.svg)](https://github.com/3amlatte/Melvor-Idle-2-AIO/actions/workflows/ci.yml)
+
 Local, config-driven automation for **Melvor Idle 2** (Steam, `Melvor2.exe`), built to run unattended while you are away from the keyboard.
 
 > **Unofficial project.** This tool is not affiliated with or endorsed by the
