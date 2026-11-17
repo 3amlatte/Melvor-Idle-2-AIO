@@ -13,7 +13,9 @@ import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
+from pathlib import Path
 
+from . import __version__
 from .paths import FROZEN, SAVETOOL_EXE
 
 MIN_PYTHON = (3, 11)
@@ -201,6 +203,34 @@ def _sdk_major(line: str) -> int:
     return int(match.group(1)) if match else 0
 
 
+def _local_build_check() -> Check:
+    if not FROZEN:
+        return Check("build", "Build version", OK, "source run")
+    try:
+        exe = Path(sys.executable)
+        repo = exe.parents[2] if len(exe.parents) >= 3 else None
+        pyproject = repo / "pyproject.toml" if repo is not None else None
+        if pyproject is None or not pyproject.exists():
+            return Check(
+                "build", "Build version", OK, f"{__version__} (packaged)"
+            )
+        text = pyproject.read_text(encoding="utf-8")
+        match = re.search(r'^version = "([^"]+)"', text, re.MULTILINE)
+        source = match.group(1) if match else ""
+        if source and source != __version__:
+            return Check(
+                "build",
+                "Build version",
+                WARN,
+                f"portable build {__version__} does not match source {source}",
+                "Run scripts\\package_app.ps1, or launch with launch_dist.cmd "
+                "to rebuild automatically.",
+            )
+        return Check("build", "Build version", OK, __version__)
+    except Exception:
+        return Check("build", "Build version", OK, f"{__version__} (packaged)")
+
+
 def _savetool_check() -> Check:
     if SAVETOOL_EXE.exists():
         return Check(
@@ -340,6 +370,7 @@ def check_runtime(settings) -> PreflightResult:
             Check("game", "Melvor window", OK, window.describe())
         )
 
+    checks.append(_local_build_check())
     return PreflightResult(tuple(checks))
 
 

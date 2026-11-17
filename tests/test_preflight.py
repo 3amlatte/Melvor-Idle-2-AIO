@@ -79,3 +79,26 @@ def test_report_sorts_states_and_includes_fixes() -> None:
     assert "[FAIL] Missing thing" in report
     assert "Install Y" in report
     assert "cannot run correctly" in report
+
+
+def test_stale_local_build_is_reported(monkeypatch, tmp_path) -> None:
+    repo = tmp_path / "repo"
+    dist = repo / "dist" / "MI2 AIO"
+    dist.mkdir(parents=True)
+    exe = dist / "MI2 AIO.exe"
+    exe.write_bytes(b"stub")
+    pyproject = repo / "pyproject.toml"
+    pyproject.write_text('version = "9.9.9"\n', encoding="utf-8")
+
+    monkeypatch.setattr(preflight, "FROZEN", True)
+    monkeypatch.setattr(preflight.sys, "executable", str(exe))
+
+    check = preflight._local_build_check()
+    assert check.key == "build"
+    assert check.state == preflight.WARN
+    assert "9.9.9" in check.detail
+
+    pyproject.write_text(
+        f'version = "{preflight.__version__}"\n', encoding="utf-8"
+    )
+    assert preflight._local_build_check().ok

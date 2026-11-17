@@ -182,8 +182,17 @@ def show_startup_check(
     store = QSettings("MI2 AIO", "MI2 AIO")
     seen = store.value(SETTINGS_KEY, False, type=bool)
     result = run_preflight(settings)
+    stale_build = any(
+        check.key == "build" and check.state != OK
+        for check in result.checks
+    )
 
-    if not force and not result.failed and not (not seen and result.warnings):
+    if (
+        not force
+        and not result.failed
+        and not stale_build
+        and not (not seen and result.warnings)
+    ):
         if not seen:
             store.setValue(SETTINGS_KEY, True)
         return result
@@ -192,7 +201,7 @@ def show_startup_check(
         result,
         settings,
         parent,
-        show_all=force or not seen,
+        show_all=force or not seen or stale_build,
     )
     dialog.exec()
     store.setValue(SETTINGS_KEY, True)

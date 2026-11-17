@@ -67,6 +67,17 @@ powershell -ExecutionPolicy Bypass -File .\scripts\package_app.ps1
 # -> dist\MI2-AIO-<version>-win64.zip
 ```
 
+`dist` does not rebuild itself. To always run the current source, start the app
+with:
+
+```powershell
+.\launch_dist.cmd
+```
+
+It compares the source with `dist\MI2 AIO\build-info.json` and rebuilds the
+portable app only when something changed. `.\scripts\ensure_dist.ps1 -CheckOnly`
+reports the same state without building (`STALE` exits with code 1).
+
 The packaged app keeps writable config/logs in `%APPDATA%\MI2 AIO`. GitHub
 Actions builds and attaches the zip for every `v*` tag.
 

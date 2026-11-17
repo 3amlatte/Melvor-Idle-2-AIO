@@ -274,6 +274,28 @@ To create the portable release package (extract-and-run zip plus SHA256):
 zip for every `v*` tag (`.github/workflows/release.yml`), so users only download
 the zip, extract it, and run `MI2 AIO.exe` — no Python or commands.
 
+### Keeping `dist` current
+
+`package_app.ps1` writes `dist\MI2 AIO\build-info.json` with the app version,
+a SHA256 fingerprint of the build inputs (`scripts\build_hash.ps1`), the build
+time and the git commit. A local build is then:
+
+- **up to date** when the fingerprint matches the current source, and
+- **stale** after any change under `src`, `data`, `assets`, `config`,
+  `tools\SaveTool` or the build scripts.
+
+Three entry points use that stamp:
+
+| Command | Behaviour |
+| --- | --- |
+| `launch_dist.cmd` | Rebuilds the portable app if stale, then launches it |
+| `.\scripts\ensure_dist.ps1` | Rebuilds only when stale |
+| `.\scripts\ensure_dist.ps1 -CheckOnly` | Prints the state; `STALE` exits 1 |
+
+Starting the packaged app directly (`dist\MI2 AIO\MI2 AIO.exe`) does **not**
+rebuild anything; it only warns at startup when its version differs from the
+source `pyproject.toml` (Diagnostics → Startup check shows the same row).
+
 Signing is optional and done on the executables before zipping:
 
 ```powershell

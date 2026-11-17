@@ -11,6 +11,7 @@ $ErrorActionPreference = "Stop"
 
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
+. (Join-Path $PSScriptRoot "build_hash.ps1")
 
 $python = Join-Path $root ".venv\Scripts\python.exe"
 if (-not (Test-Path $python)) {
@@ -33,6 +34,23 @@ $dist = Join-Path $root "dist\MI2 AIO"
 if (-not (Test-Path $dist)) {
     throw "Build output is missing: $dist"
 }
+
+# Stamp the source fingerprint so ensure_dist.ps1 can tell whether dist is
+# current. This file ships inside the portable zip.
+$sourceHash = Get-Mi2SourceHash -Root $root
+$commit = ""
+try {
+    $commit = (git -C $root rev-parse --short HEAD 2>$null).Trim()
+} catch {
+    $commit = ""
+}
+$buildInfo = [ordered]@{
+    version     = $version
+    source_hash = $sourceHash
+    built_at    = (Get-Date).ToString("o")
+    git_commit  = $commit
+} | ConvertTo-Json
+Set-Content -Path (Join-Path $dist "build-info.json") -Value $buildInfo -Encoding UTF8
 
 if ($Thumbprint -or $PfxPath) {
     & (Join-Path $PSScriptRoot "sign_app.ps1") `
